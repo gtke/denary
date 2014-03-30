@@ -2,13 +2,13 @@
 <merger>
 
     <dataSet config="ComAndroidSupportAppcompatV71901.aar" >
-        <source path="/Users/gtkesh/Desktop/Denary/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/assets" />
+        <source path="/Users/mtownsend/AndroidStudio/Denary/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/assets" />
     </dataSet>
     <dataSet config="main" >
-        <source path="/Users/gtkesh/Desktop/Denary/app/src/main/assets" />
+        <source path="/Users/mtownsend/AndroidStudio/Denary/app/src/main/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/gtkesh/Desktop/Denary/app/src/debug/assets" />
+        <source path="/Users/mtownsend/AndroidStudio/Denary/app/src/debug/assets" />
     </dataSet>
 
 </merger>

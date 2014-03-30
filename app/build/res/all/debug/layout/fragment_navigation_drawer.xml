@@ -6,10 +6,5 @@
     android:divider="@android:color/transparent"
     android:dividerHeight="0dp"
     android:background="#cccc"
-<<<<<<< HEAD
     tools:context="denary.app.views.NavigationDrawerFragment" />
 <!-- From: file:/Users/mtownsend/AndroidStudio/Denary/app/src/main/res/layout/fragment_navigation_drawer.xml -->
-=======
-    tools:context="denary.app.NavigationDrawerFragment" />
-<!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/fragment_navigation_drawer.xml -->
->>>>>>> ee7869e4963143bb7794675558997c2478b7d0d3
