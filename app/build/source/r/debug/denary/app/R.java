@@ -972,15 +972,17 @@ containing a value of this type.
         public static final int activity_report_display=0x7f03001c;
         public static final int activity_reports_menu=0x7f03001d;
         public static final int activity_settings=0x7f03001e;
-        public static final int activity_transaction_list=0x7f03001f;
-        public static final int fragment_add_transaction=0x7f030020;
-        public static final int fragment_dashboard=0x7f030021;
-        public static final int fragment_navigation_drawer=0x7f030022;
-        public static final int fragment_report_display=0x7f030023;
-        public static final int fragment_reports_menu=0x7f030024;
-        public static final int fragment_settings=0x7f030025;
-        public static final int fragment_transaction_list=0x7f030026;
-        public static final int support_simple_spinner_dropdown_item=0x7f030027;
+        public static final int activity_splash=0x7f03001f;
+        public static final int activity_transaction_list=0x7f030020;
+        public static final int activity_welcome=0x7f030021;
+        public static final int fragment_add_transaction=0x7f030022;
+        public static final int fragment_dashboard=0x7f030023;
+        public static final int fragment_navigation_drawer=0x7f030024;
+        public static final int fragment_report_display=0x7f030025;
+        public static final int fragment_reports_menu=0x7f030026;
+        public static final int fragment_settings=0x7f030027;
+        public static final int fragment_transaction_list=0x7f030028;
+        public static final int support_simple_spinner_dropdown_item=0x7f030029;
     }
     public static final class menu {
         public static final int add_account=0x7f0e0000;
@@ -991,7 +993,9 @@ containing a value of this type.
         public static final int report_display=0x7f0e0005;
         public static final int reports_menu=0x7f0e0006;
         public static final int settings=0x7f0e0007;
-        public static final int transaction_list=0x7f0e0008;
+        public static final int splash=0x7f0e0008;
+        public static final int transaction_list=0x7f0e0009;
+        public static final int welcome=0x7f0e000a;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f0c0000;
@@ -1043,11 +1047,13 @@ containing a value of this type.
         public static final int title_activity_report_display=0x7f0c002e;
         public static final int title_activity_reports_menu=0x7f0c002f;
         public static final int title_activity_settings=0x7f0c0030;
-        public static final int title_activity_transaction_list=0x7f0c0031;
-        public static final int title_section1=0x7f0c0032;
-        public static final int title_section2=0x7f0c0033;
-        public static final int title_section3=0x7f0c0034;
-        public static final int title_transaction_detail=0x7f0c0035;
+        public static final int title_activity_splash=0x7f0c0031;
+        public static final int title_activity_transaction_list=0x7f0c0032;
+        public static final int title_activity_welcome=0x7f0c0033;
+        public static final int title_section1=0x7f0c0034;
+        public static final int title_section2=0x7f0c0035;
+        public static final int title_section3=0x7f0c0036;
+        public static final int title_transaction_detail=0x7f0c0037;
     }
     public static final class style {
         /**  Customize your theme here. 

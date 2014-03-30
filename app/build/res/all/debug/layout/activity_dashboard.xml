@@ -5,7 +5,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="denary.app.DashboardActivity">
+    tools:context="denary.app.views.DashboardActivity">
 
     <!-- As the main content view, the view below consumes the entire
          space available using match_parent in both dimensions. -->
@@ -25,7 +25,7 @@
         android:layout_width="@dimen/navigation_drawer_width"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:name="denary.app.NavigationDrawerFragment" />
+        android:name="denary.app.views.NavigationDrawerFragment" />
 
 </android.support.v4.widget.DrawerLayout>
 <!-- From: file:/Users/mtownsend/AndroidStudio/Denary/app/src/main/res/layout/activity_dashboard.xml -->

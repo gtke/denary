@@ -1,9 +1,11 @@
-package denary.app;
+package denary.app.views;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import denary.app.R;
 
 public class RegisterActivity extends Activity {
 

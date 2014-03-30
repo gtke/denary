@@ -7552,8 +7552,18 @@ false
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_splash"
+                path="/Users/mtownsend/AndroidStudio/Denary/app/src/main/res/layout/activity_splash.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_transaction_list"
                 path="/Users/mtownsend/AndroidStudio/Denary/app/src/main/res/layout/activity_transaction_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_welcome"
+                path="/Users/mtownsend/AndroidStudio/Denary/app/src/main/res/layout/activity_welcome.xml"
                 qualifiers=""
                 type="layout" />
             <file
@@ -7632,8 +7642,18 @@ false
                 qualifiers=""
                 type="menu" />
             <file
+                name="splash"
+                path="/Users/mtownsend/AndroidStudio/Denary/app/src/main/res/menu/splash.xml"
+                qualifiers=""
+                type="menu" />
+            <file
                 name="transaction_list"
                 path="/Users/mtownsend/AndroidStudio/Denary/app/src/main/res/menu/transaction_list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="welcome"
+                path="/Users/mtownsend/AndroidStudio/Denary/app/src/main/res/menu/welcome.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -7665,7 +7685,11 @@ false
                 </string>
                 <string name="title_activity_dashboard" >DashboardActivity
                 </string>
+                <string name="title_activity_splash" >SplashActivity
+                </string>
                 <string name="title_activity_reports_menu" >ReportsMenuActivity
+                </string>
+                <string name="title_activity_welcome" >WelcomeActivity
                 </string>
                 <string name="title_activity_register" >RegisterActivity
                 </string>

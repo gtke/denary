@@ -3,23 +3,32 @@
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="19"/>
 
     <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
-        <activity android:label="@string/title_activity_dashboard" android:name="denary.app.DashboardActivity">
+        <activity android:label="@string/title_activity_dashboard" android:name="denary.app.views.DashboardActivity">
         </activity>
-        <activity android:label="@string/title_activity_login" android:name="denary.app.LoginActivity" android:windowSoftInputMode="adjustResize|stateVisible">
+        <activity android:label="@string/title_activity_login" android:name="denary.app.views.LoginActivity" android:windowSoftInputMode="adjustResize|stateVisible">
         </activity>
-        <activity android:label="@string/title_activity_report_display" android:name="denary.app.ReportDisplayActivity">
+        <activity android:label="@string/title_activity_report_display" android:name="denary.app.views.ReportDisplayActivity">
         </activity>
-        <activity android:label="@string/title_activity_settings" android:name="denary.app.SettingsActivity">
+        <activity android:label="@string/title_activity_settings" android:name="denary.app.views.SettingsActivity">
         </activity>
-        <activity android:label="@string/title_activity_reports_menu" android:name="denary.app.ReportsMenuActivity">
+        <activity android:label="@string/title_activity_reports_menu" android:name="denary.app.views.ReportsMenuActivity">
         </activity>
-        <activity android:label="@string/title_activity_add_transaction" android:name="denary.app.AddTransactionActivity">
+        <activity android:label="@string/title_activity_add_transaction" android:name="denary.app.views.AddTransactionActivity">
         </activity>
-        <activity android:label="@string/title_activity_add_account" android:name="denary.app.AddAccountActivity">
+        <activity android:label="@string/title_activity_add_account" android:name="denary.app.views.AddAccountActivity">
         </activity>
-        <activity android:label="@string/title_activity_register" android:name="denary.app.RegisterActivity">
+        <activity android:label="@string/title_activity_register" android:name="denary.app.views.RegisterActivity">
         </activity>
-        <activity android:label="@string/title_activity_transaction_list" android:name="denary.app.TransactionListActivity">
+        <activity android:label="@string/title_activity_transaction_list" android:name="denary.app.views.TransactionListActivity">
+        </activity>
+        <activity android:label="@string/title_activity_splash" android:name="denary.app.views.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/title_activity_welcome" android:name="denary.app.views.WelcomeActivity">
         </activity>
     </application>
 
