@@ -9,4 +9,5 @@ public interface AModel {
     void createAccount(final User user, final Account account);
     void deleteAccount(final User user, final Account account);
     Collection<Account> getAllAccounts();
+    void deleteAllAccounts();
 }

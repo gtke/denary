@@ -5,4 +5,5 @@ package denary.app.models;
  */
 public interface UModel {
     void addUser(final User user);
+
 }
