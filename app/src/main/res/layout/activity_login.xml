@@ -59,7 +59,17 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:text="@string/action_sign_in"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hint_label"
+                    android:id="@+id/button"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="14dp"
+                    android:typeface="normal" />
 
             </LinearLayout>
     </ScrollView>
