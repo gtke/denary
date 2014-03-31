@@ -4,6 +4,8 @@ import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
 
+import java.util.IllegalFormatConversionException;
+
 /**
  * Created by gtkesh on 3/30/14.
  */

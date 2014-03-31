@@ -1,18 +1,30 @@
 package denary.app.views;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import denary.app.R;
+import com.parse.ParseException;
+import com.parse.ParseUser;
 
-public class SplashActivity extends Activity {
+import denary.app.R;
+import denary.app.models.ParseConfig;
+import denary.app.presenters.WelcomePresenter;
+
+public class SplashActivity extends Activity implements IView{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        WelcomePresenter wp = new WelcomePresenter();
+        advance();
+
+
+
+
     }
 
 
@@ -35,5 +47,12 @@ public class SplashActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    public void advance(){
+        Intent welcome_intent = new Intent(this, LoginActivity.class);
+        startActivity(welcome_intent);
+    }
+
 
 }
