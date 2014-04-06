@@ -12,6 +12,7 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 
 import denary.app.R;
+import denary.app.extra.NanoConverter;
 import denary.app.models.ParseConfig;
 import denary.app.presenters.WelcomePresenter;
 
@@ -54,8 +55,11 @@ public class SplashActivity extends Activity implements IView{
 
     @Override
     public void advance(){
-        Intent login_intent = new Intent(this, LoginActivity.class);
-        startActivity(login_intent);
+
+     //   Intent login_intent = new Intent(this, LoginActivity.class);
+        Intent converter = new Intent(this, NanoConverter.class);
+        startActivity(converter);
+
     }
 
 

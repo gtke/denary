@@ -1,6 +1,164 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/arrays.xml -->
+    <eat-comment />
+
+    <string-array name="listArray">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>CHF</item>
+        <item>GBP</item>
+        <item>JPY</item>
+        <item>UAH</item>
+        <item>RUB</item>
+        <item>MDL</item>
+        <item>BYR</item>
+        <item>PLN</item>
+        <item>LTL</item>
+        <item>LVL</item>
+        <item>AZN</item>
+        <item>AUD</item>
+        <item>AMD</item>
+        <item>BGN</item>
+        <item>BRL</item>
+        <item>HUF</item>
+        <item>DKK</item>
+        <item>INR</item>
+        <item>KZT</item>
+        <item>CAD</item>
+        <item>KGS</item>
+        <item>CNY</item>
+        <item>NOK</item>
+        <item>RON</item>
+        <item>XDR</item>
+        <item>SGD</item>
+        <item>TJS</item>
+        <item>TRY</item>
+        <item>TMT</item>
+        <item>UZS</item>
+        <item>CZK</item>
+        <item>SEK</item>
+        <item>ZAR</item>
+        <item>KRW</item>
+    </string-array>
+    <string-array name="listBKG">
+        <item>ICS</item>
+        <item>Black</item>
+        <item>Gray (flat)</item>
+        <item>System</item>
+        <item>Cube</item>
+        <item>Gray Dot</item>
+        <item>Violet Fabric</item>
+        <item>Black Dot</item>
+        <item>ICS 2</item>
+        <item>Flowers</item>
+    </string-array>
+    <string-array name="listBKGValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="listBankID">
+        <item>CBR</item>
+        <item>USER_DATA</item>
+        <item>NBU</item>
+        <item>NBRB</item>
+        <item>BNM</item>
+        <item>AZ</item>
+        <item>ECB</item>
+        <item>FOREX</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+    </string-array>
+    <string-array name="listsourceArray">
+        <item>Central Bank of Russia</item>
+        <item>User data</item>
+        <item>National Bank of Ukraine</item>
+        <item>National Bank of Belarus</item>
+        <item>National Bank of Moldova</item>
+        <item>Central Bank of Azerbaijan</item>
+        <item>European Central Bank</item>
+        <item>Forex</item>
+    </string-array>
+    <string-array name="listsourceConfig">
+        <item>Central Bank of Russia</item>
+        <item>National Bank of Ukraine</item>
+        <item>National Bank of Belarus</item>
+        <item>National Bank of Moldova</item>
+        <item>Central Bank of Azerbaijan</item>
+        <item>European Central Bank</item>
+        <item>Forex</item>
+    </string-array>
+    <string-array name="listsourceValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="listupdateArray">
+        <item>Manual</item>
+        <item>In background</item>
+        <item>Pre-update</item>
+        <item>Once Per day</item>
+    </string-array>
+    <string-array name="listupdateValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="listwidgettheme">
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment />
 
@@ -528,6 +686,474 @@
     <item name="progress_horizontal" type="id"/>
 
     <integer name="abc_max_action_buttons">2</integer>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="AMD">75.0119</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="AMD_discription">Armenian Drama</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="AMDfrom">AMD</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="AUD">30.5238</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="AUD_discription">Australian Dollars</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="AUDfrom">AUD</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="AZN">37.2908</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="AZN_discription">Azerbaijani manat</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="AZNfrom">AZN</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="BGN">19.8204</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="BGN_discription">Bulgarian lvy</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="BGNfrom">BGN</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="BRL">15.6026</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="BRL_discription">Brazilian Reais</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="BRLfrom">BRL</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="BYR">0.00365963</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="BYR_discription">Belarusian Ruble</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="BYRfrom">BYR</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="CAD">29.8472</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="CAD_discription">Canadian Dollars</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="CADfrom">CAD</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="CHF">31.9960</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="CHF_discription">Swiss Franc</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="CHFfrom">CHF</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="CNY">46.6446</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="CNY_discription">Chinese Yuan</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="CNYfrom">CNY</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="CZK">15.6163</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="CZK_discription">Czech crown</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="CZKfrom">CZK</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="Coursestab">Rates</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="DKK">52.1156</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="DKK_discription">Danish crowns</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="DKKfrom">DKK</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="EUR">38.7393</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="EUR_discription">Euro</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="EURfrom">EUR</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="FOO">10.7777</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="FOO_discription">Free course</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="FOOfrom">FOO</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="FROM">From currency:</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="GBP">47.4258</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="GBP_discription">Pounds</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="GBPfrom">GBP</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="HUF">13.4704</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="HUF_discription">Hungarian Forint</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="HUFfrom">HUF</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="INR">55.8372</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="INR_discription">Indian rupee</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="INRfrom">INR</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="JPY">0.349325</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="JPY_discription">Japanese yen</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="JPYfrom">JPY</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="KGS">62.7607</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="KGS_discription">Kyrgyz soma</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="KGSfrom">KGS</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="KRW">25.9260</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="KRW_discription">Won South Korea</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="KRWfrom">KRW</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="KZT">19.9008</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="KZT_discription">Kazakh tenge</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="KZTfrom">KZT</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="LTL">11.1803</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="LTL_discription">Lithuanian Litas</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="LTLfrom">LTL</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="LVL">55.4489</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="LVL_discription">Latvian lats</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="LVLfrom">LVL</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="MDL">2.49351</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="MDL_discription">Moldavian lei</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="MDLfrom">MDL</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="NOK">51.1293</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="NOK_discription">Norwegian kroner</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="NOKfrom">NOK</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="OfflineCourses">Courses:</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="PLN">9.34793</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="PLN_discription">Poland Zloty</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="PLNfrom">PLN</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="RON">88.6220</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="RON_discription">New Romanian Leu</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="RONfrom">RON</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="RUB">1.000</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="RUB_discription">Russian Ruble</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="RUBfrom">RUB</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="SEK">43.6290</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="SEK_discription">Swedish Krona</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="SEKfrom">SEK</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="SGD">23.6789</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="SGD_discription">Singapore Dollars</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="SGDfrom">SGD</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="TJS">61.8321</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="TJS_discription">Tajik Somoni</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="TJSfrom">TJS</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="TMT">10.3168</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="TMT_discription">New Turkmenistan Manat</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="TMTfrom">TMT</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="TO">In currency:</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="TRY">16.6610</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="TRY_discription">Turkish lira</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="TRYfrom">TRY</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="UAH">3.64346</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="UAH_discription">Ukrainian hryvnia</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="UAHfrom">UAH</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="USD">29.2770</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="USD_discription">U.S. Dollars</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="USDfrom">USD</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="UZS">15.8518</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="UZS_discription">Uzbek soums</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="UZSfrom">UZS</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="Update">Updates</string>
+    <string name="UpdateButtonText">Update now!</string>
+    <string name="Updatedis">Update method</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="XDR">45.5483</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="XDR_discription">Special Drawing Rights</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="XDRfrom">XDR</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml -->
+    <eat-comment />
+
+    <string name="ZAR">37.6755</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml -->
+    <eat-comment />
+
+    <string name="ZAR_discription">South African rand</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml -->
+    <eat-comment />
+
+    <string name="ZARfrom">ZAR</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
+    <eat-comment />
 
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
@@ -545,6 +1171,10 @@
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
+    <string name="about">About</string>
+    <string name="abouttap">Click for detail!</string>
+    <string name="abouttext">Flags icon:\n- http://famfamfam.com\n\nPatterns:\n- http://noqta.it\n- http://dinpattern.com\n- http://squidfingers.com\n- http://pattrnapp.com\n\nIcons:\n- http://adamwhitcroft.com/batch\n\nHow to:\n- http://stackoverflow.com\n- http://habrahabr.ru\n\nThx:\n- jadis100, Ant-ON, ramallah, spardaev.\n\nWTFPL:\nDo What The Fuck You Want To Public License.</string>
+    <string name="aboutvers">nanoConverter 0.8.98</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings_activity_login.xml -->
@@ -556,6 +1186,22 @@
     <eat-comment />
 
     <string name="app_name">Denary</string>
+    <string name="bank">Bank</string>
+    <string name="bank_is_this">Source</string>
+    <string name="bkg">Background</string>
+    <string name="bkgdis">Choose app. background</string>
+    <string name="checkinternet">Check Your Internet connection.</string>
+    <string name="circle_or_not">Circle</string>
+    <string name="conversetab">Convert</string>
+    <string name="course">Rates</string>
+    <string name="curentamount"></string>
+    <string name="curlist">Currency list</string>
+    <string name="curlistdis">Available for conversation currency</string>
+    <string name="defaultcurrency">Default currency</string>
+    <string name="defaultcurrencydis">Currency that will be equal 1.00</string>
+    <string name="devnull">Null rate detected!</string>
+    <string name="devzero">Division by zero!</string>
+    <string name="eq">=</string>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings_activity_login.xml -->
     <eat-comment />
 
@@ -566,10 +1212,17 @@
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
+    <string name="exit">Exit</string>
+    <string name="forceUpdate">Pre-udate</string>
+    <string name="from_this">from:</string>
+    <string name="hello">Enter amount:</string>
     <string name="hello_world">Hello world!</string>
     <string name="hint_label">Password Hint</string>
+    <string name="inverse">Inverse</string>
+    <string name="loadfrombank">Preset</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="other">Other</string>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment />
 
@@ -587,6 +1240,11 @@
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <string name="pref_title_system_sync_settings">System sync settings</string>
     <string name="pref_title_vibrate">Vibrate</string>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="presets">Rates</string>
+    <string name="presets_disc">Grab rates from</string>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings_activity_login.xml -->
     <eat-comment />
 
@@ -595,6 +1253,22 @@
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml -->
     <eat-comment />
 
+    <string name="ratessource">Rates sources</string>
+    <string name="ratessourcedis">When will get rates?</string>
+    <string name="result">Results:</string>
+    <string name="revrates">Reverse rates</string>
+    <string name="revratesdis">Use reversed rates on rates tab</string>
+    <string name="revratess">Reverse</string>
+    <string name="rounded_corner_not">Rounded Corners</string>
+    <string name="setcur">Currency</string>
+    <string name="settings">Settings</string>
+    <string name="settingstab">Settings</string>
+    <string name="show_bank">Show Source</string>
+    <string name="show_cur">Show Currency</string>
+    <string name="show_onlyFrom">First only</string>
+    <string name="show_onlyTo">Second only</string>
+    <string name="show_update">Show Update</string>
+    <string name="sources">Sources</string>
     <string name="title_activity_add_account">AddAccountActivity</string>
     <string name="title_activity_add_transaction">AddTransactionActivity</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
@@ -622,11 +1296,26 @@
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
     <string name="title_transaction_detail">Transaction Detail</string>
+    <string name="to_this">to:</string>
+    <string name="updatecomplete">Update done!</string>
+    <string name="updateinprogress">Updating . . .</string>
+    <string name="wait">Please wait . . .</string>
+    <string name="zerocheck">No data for default currency, will use USD as default. Please update rates, or change source.</string>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/styles.xml -->
     <eat-comment />
 
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+    </style>
+    <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/themes.xml -->
+    <eat-comment />
+
+    <style name="MyTheme" parent="@android:style/Theme.NoTitleBar">
+        <!-- Any customizations for your app running on pre-3.0 devices here -->
+    </style>
+
+    <style name="MyTheme2" parent="@android:style/Theme">
+        <!-- Any customizations for your app running on devices with Theme.Holo here -->
     </style>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/build/exploded-bundles/ComAndroidSupportAppcompatV71901.aar/res/values/values.xml -->
     <eat-comment />

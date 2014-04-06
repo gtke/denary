@@ -15,7 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:textAlignment="center"
-        android:capitalize="sentences" />
+        android:capitalize="sentences"
+        android:textColor="#ffffff"
+        android:textSize="55px" />
     <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="wrap_content"

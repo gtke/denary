@@ -7452,8 +7452,193 @@ false
     <dataSet config="main" >
         <source path="/Users/gtkesh/Desktop/Denary/app/src/main/res" >
             <file
+                name="about"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/about.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="am"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/am.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="au"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/au.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="az"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/az.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bank"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/bank.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bkg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/bkg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bkgb"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/bkgb.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bkgbr"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/bkgbr.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="bkgmain"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/bkgmain.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="br"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/br.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="by"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/by.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ca"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ca.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ch"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ch.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="close"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/close.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="cn"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/cn.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="copy_from_bank"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/copy_from_bank.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="cz"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/cz.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="dg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/dg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="dgr"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/dgr.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="dk"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/dk.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="dr"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/dr.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="drawer_shadow"
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/drawer_shadow.9.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="drr"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/drr.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="dwnld"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/dwnld.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="edittext"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/edittext.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="err"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/err.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="europeanunion"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/europeanunion.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="fam"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/fam.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="flow"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/flow.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="flower"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/flower.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="gb"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/gb.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="gd"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/gd.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="gdr"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/gdr.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="gg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/gg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ggr"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ggr.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="good"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/good.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="hu"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/hu.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
@@ -7467,8 +7652,198 @@ false
                 qualifiers="hdpi"
                 type="drawable" />
             <file
+                name="ic_tab_con_bg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ic_tab_con_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_con_col"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ic_tab_con_col.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_convert"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ic_tab_convert.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_cor_bg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ic_tab_cor_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_cor_col"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ic_tab_cor_col.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_courses"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ic_tab_courses.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_set_bg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ic_tab_set_bg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_set_col"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ic_tab_set_col.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="in"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/in.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="inverse"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/inverse.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="jp"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/jp.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="kg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/kg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="kr"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/kr.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="kz"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/kz.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="lt"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/lt.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="lv"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/lv.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="md"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/md.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
                 name="moneyicon"
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/moneyicon.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="no"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/no.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="pl"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/pl.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="preview_circle"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/preview_circle.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ro"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ro.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ru"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ru.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="se"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/se.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="sett"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/sett.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="sg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/sg.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="shape_circle"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/shape_circle.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="shape_circle_white"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/shape_circle_white.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="shape_square"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/shape_square.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="shape_square_rounded"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/shape_square_rounded.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="shape_square_rounded_white"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/shape_square_rounded_white.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="shape_square_white"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/shape_square_white.xml"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tj"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/tj.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tm"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/tm.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="tr"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/tr.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ua"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/ua.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="us"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/us.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="uz"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/uz.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="za"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-hdpi/za.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
@@ -7487,8 +7862,43 @@ false
                 qualifiers="mdpi"
                 type="drawable" />
             <file
+                name="ic_tab_con_bg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-mdpi/ic_tab_con_bg.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_con_col"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-mdpi/ic_tab_con_col.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_cor_bg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-mdpi/ic_tab_cor_bg.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_cor_col"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-mdpi/ic_tab_cor_col.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_set_bg"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-mdpi/ic_tab_set_bg.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_tab_set_col"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-mdpi/ic_tab_set_col.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
                 name="drawer_shadow"
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-xhdpi/drawer_shadow.9.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="flow"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-xhdpi/flow.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
@@ -7516,6 +7926,11 @@ false
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
+            <file
+                name="about"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/about.xml"
+                qualifiers=""
+                type="layout" />
             <file
                 name="activity_add_account"
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/activity_add_account.xml"
@@ -7602,6 +8017,46 @@ false
                 qualifiers=""
                 type="layout" />
             <file
+                name="main"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="popup_bank"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/popup_bank.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="popup_copyfrombank"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/popup_copyfrombank.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_1x1"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/widget_1x1.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_1x1_circle"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/widget_1x1_circle.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_1x1_circle_white"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/widget_1x1_circle_white.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_1x1_white"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/widget_1x1_white.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="widget_duel_config"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/widget_duel_config.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="add_account"
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/menu/add_account.xml"
                 qualifiers=""
@@ -7619,6 +8074,11 @@ false
             <file
                 name="global"
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/menu/global.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="mainmenu"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/menu/mainmenu.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -7652,6 +8112,431 @@ false
                 qualifiers=""
                 type="menu" />
             <file
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/values/arrays.xml"
+                qualifiers="" >
+                <string-array name="listsourceConfig" >
+                    <item>
+Central Bank of Russia
+                    </item>
+                    <item>
+National Bank of Ukraine
+                    </item>
+                    <item>
+National Bank of Belarus
+                    </item>
+                    <item>
+National Bank of Moldova
+                    </item>
+                    <item>
+Central Bank of Azerbaijan
+                    </item>
+                    <item>
+European Central Bank
+                    </item>
+                    <item>
+Forex
+                    </item>
+                </string-array>
+                <string-array name="listValues" >
+                    <item>
+0
+                    </item>
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                    <item>
+4
+                    </item>
+                    <item>
+5
+                    </item>
+                    <item>
+6
+                    </item>
+                    <item>
+7
+                    </item>
+                    <item>
+8
+                    </item>
+                    <item>
+9
+                    </item>
+                    <item>
+10
+                    </item>
+                    <item>
+11
+                    </item>
+                    <item>
+12
+                    </item>
+                    <item>
+13
+                    </item>
+                    <item>
+14
+                    </item>
+                    <item>
+15
+                    </item>
+                    <item>
+16
+                    </item>
+                    <item>
+17
+                    </item>
+                    <item>
+18
+                    </item>
+                    <item>
+19
+                    </item>
+                    <item>
+20
+                    </item>
+                    <item>
+21
+                    </item>
+                    <item>
+22
+                    </item>
+                    <item>
+23
+                    </item>
+                    <item>
+24
+                    </item>
+                    <item>
+25
+                    </item>
+                    <item>
+26
+                    </item>
+                    <item>
+27
+                    </item>
+                    <item>
+28
+                    </item>
+                    <item>
+29
+                    </item>
+                    <item>
+30
+                    </item>
+                    <item>
+31
+                    </item>
+                    <item>
+32
+                    </item>
+                    <item>
+33
+                    </item>
+                    <item>
+34
+                    </item>
+                    <item>
+35
+                    </item>
+                </string-array>
+                <string-array name="listsourceValues" >
+                    <item>
+0
+                    </item>
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                    <item>
+4
+                    </item>
+                    <item>
+5
+                    </item>
+                    <item>
+6
+                    </item>
+                    <item>
+7
+                    </item>
+                </string-array>
+                <string-array name="listBankID" >
+                    <item>
+CBR
+                    </item>
+                    <item>
+USER_DATA
+                    </item>
+                    <item>
+NBU
+                    </item>
+                    <item>
+NBRB
+                    </item>
+                    <item>
+BNM
+                    </item>
+                    <item>
+AZ
+                    </item>
+                    <item>
+ECB
+                    </item>
+                    <item>
+FOREX
+                    </item>
+                </string-array>
+                <string-array name="listupdateArray" >
+                    <item>
+Manual
+                    </item>
+                    <item>
+In background
+                    </item>
+                    <item>
+Pre-update
+                    </item>
+                    <item>
+Once Per day
+                    </item>
+                </string-array>
+                <string-array name="listArray" >
+                    <item>
+USD
+                    </item>
+                    <item>
+EUR
+                    </item>
+                    <item>
+CHF
+                    </item>
+                    <item>
+GBP
+                    </item>
+                    <item>
+JPY
+                    </item>
+                    <item>
+UAH
+                    </item>
+                    <item>
+RUB
+                    </item>
+                    <item>
+MDL
+                    </item>
+                    <item>
+BYR
+                    </item>
+                    <item>
+PLN
+                    </item>
+                    <item>
+LTL
+                    </item>
+                    <item>
+LVL
+                    </item>
+                    <item>
+AZN
+                    </item>
+                    <item>
+AUD
+                    </item>
+                    <item>
+AMD
+                    </item>
+                    <item>
+BGN
+                    </item>
+                    <item>
+BRL
+                    </item>
+                    <item>
+HUF
+                    </item>
+                    <item>
+DKK
+                    </item>
+                    <item>
+INR
+                    </item>
+                    <item>
+KZT
+                    </item>
+                    <item>
+CAD
+                    </item>
+                    <item>
+KGS
+                    </item>
+                    <item>
+CNY
+                    </item>
+                    <item>
+NOK
+                    </item>
+                    <item>
+RON
+                    </item>
+                    <item>
+XDR
+                    </item>
+                    <item>
+SGD
+                    </item>
+                    <item>
+TJS
+                    </item>
+                    <item>
+TRY
+                    </item>
+                    <item>
+TMT
+                    </item>
+                    <item>
+UZS
+                    </item>
+                    <item>
+CZK
+                    </item>
+                    <item>
+SEK
+                    </item>
+                    <item>
+ZAR
+                    </item>
+                    <item>
+KRW
+                    </item>
+                </string-array>
+                <string-array name="listBKGValues" >
+                    <item>
+0
+                    </item>
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                    <item>
+4
+                    </item>
+                    <item>
+5
+                    </item>
+                    <item>
+6
+                    </item>
+                    <item>
+7
+                    </item>
+                    <item>
+8
+                    </item>
+                    <item>
+9
+                    </item>
+                </string-array>
+                <string-array name="listwidgettheme" >
+                    <item>
+Black
+                    </item>
+                    <item>
+White
+                    </item>
+                </string-array>
+                <string-array name="listupdateValues" >
+                    <item>
+0
+                    </item>
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                </string-array>
+                <string-array name="listBKG" >
+                    <item>
+ICS
+                    </item>
+                    <item>
+Black
+                    </item>
+                    <item>
+Gray (flat)
+                    </item>
+                    <item>
+System
+                    </item>
+                    <item>
+Cube
+                    </item>
+                    <item>
+Gray Dot
+                    </item>
+                    <item>
+Violet Fabric
+                    </item>
+                    <item>
+Black Dot
+                    </item>
+                    <item>
+ICS 2
+                    </item>
+                    <item>
+Flowers
+                    </item>
+                </string-array>
+                <string-array name="listsourceArray" >
+                    <item>
+Central Bank of Russia
+                    </item>
+                    <item>
+User data
+                    </item>
+                    <item>
+National Bank of Ukraine
+                    </item>
+                    <item>
+National Bank of Belarus
+                    </item>
+                    <item>
+National Bank of Moldova
+                    </item>
+                    <item>
+Central Bank of Azerbaijan
+                    </item>
+                    <item>
+European Central Bank
+                    </item>
+                    <item>
+Forex
+                    </item>
+                </string-array>
+            </file>
+            <file
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="navigation_drawer_width" >240dp
@@ -7662,47 +8547,394 @@ false
                 </dimen>
             </file>
             <file
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_discription.xml"
+                qualifiers="" >
+                <string name="TMT_discription" >New Turkmenistan Manat
+                </string>
+                <string name="HUF_discription" >Hungarian Forint
+                </string>
+                <string name="AZN_discription" >Azerbaijani manat
+                </string>
+                <string name="AMD_discription" >Armenian Drama
+                </string>
+                <string name="EUR_discription" >Euro
+                </string>
+                <string name="MDL_discription" >Moldavian lei
+                </string>
+                <string name="TJS_discription" >Tajik Somoni
+                </string>
+                <string name="KGS_discription" >Kyrgyz soma
+                </string>
+                <string name="RON_discription" >New Romanian Leu
+                </string>
+                <string name="INR_discription" >Indian rupee
+                </string>
+                <string name="AUD_discription" >Australian Dollars
+                </string>
+                <string name="DKK_discription" >Danish crowns
+                </string>
+                <string name="KZT_discription" >Kazakh tenge
+                </string>
+                <string name="USD_discription" >U.S. Dollars
+                </string>
+                <string name="KRW_discription" >Won South Korea
+                </string>
+                <string name="TRY_discription" >Turkish lira
+                </string>
+                <string name="CHF_discription" >Swiss Franc
+                </string>
+                <string name="PLN_discription" >Poland Zloty
+                </string>
+                <string name="XDR_discription" >Special Drawing Rights
+                </string>
+                <string name="UZS_discription" >Uzbek soums
+                </string>
+                <string name="RUB_discription" >Russian Ruble
+                </string>
+                <string name="JPY_discription" >Japanese yen
+                </string>
+                <string name="ZAR_discription" >South African rand
+                </string>
+                <string name="CAD_discription" >Canadian Dollars
+                </string>
+                <string name="BYR_discription" >Belarusian Ruble
+                </string>
+                <string name="NOK_discription" >Norwegian kroner
+                </string>
+                <string name="FOO_discription" >Free course
+                </string>
+                <string name="CZK_discription" >Czech crown
+                </string>
+                <string name="CNY_discription" >Chinese Yuan
+                </string>
+                <string name="SGD_discription" >Singapore Dollars
+                </string>
+                <string name="UAH_discription" >Ukrainian hryvnia
+                </string>
+                <string name="BRL_discription" >Brazilian Reais
+                </string>
+                <string name="SEK_discription" >Swedish Krona
+                </string>
+                <string name="BGN_discription" >Bulgarian lvy
+                </string>
+                <string name="LVL_discription" >Latvian lats
+                </string>
+                <string name="GBP_discription" >Pounds
+                </string>
+                <string name="LTL_discription" >Lithuanian Litas
+                </string>
+            </file>
+            <file
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_ID.xml"
+                qualifiers="" >
+                <string name="GBPfrom" >GBP
+                </string>
+                <string name="INRfrom" >INR
+                </string>
+                <string name="XDRfrom" >XDR
+                </string>
+                <string name="KGSfrom" >KGS
+                </string>
+                <string name="SEKfrom" >SEK
+                </string>
+                <string name="TRYfrom" >TRY
+                </string>
+                <string name="RUBfrom" >RUB
+                </string>
+                <string name="CZKfrom" >CZK
+                </string>
+                <string name="EURfrom" >EUR
+                </string>
+                <string name="FOOfrom" >FOO
+                </string>
+                <string name="AMDfrom" >AMD
+                </string>
+                <string name="PLNfrom" >PLN
+                </string>
+                <string name="TJSfrom" >TJS
+                </string>
+                <string name="BYRfrom" >BYR
+                </string>
+                <string name="HUFfrom" >HUF
+                </string>
+                <string name="CADfrom" >CAD
+                </string>
+                <string name="NOKfrom" >NOK
+                </string>
+                <string name="LTLfrom" >LTL
+                </string>
+                <string name="MDLfrom" >MDL
+                </string>
+                <string name="TMTfrom" >TMT
+                </string>
+                <string name="KRWfrom" >KRW
+                </string>
+                <string name="JPYfrom" >JPY
+                </string>
+                <string name="BGNfrom" >BGN
+                </string>
+                <string name="ZARfrom" >ZAR
+                </string>
+                <string name="DKKfrom" >DKK
+                </string>
+                <string name="BRLfrom" >BRL
+                </string>
+                <string name="RONfrom" >RON
+                </string>
+                <string name="KZTfrom" >KZT
+                </string>
+                <string name="AZNfrom" >AZN
+                </string>
+                <string name="LVLfrom" >LVL
+                </string>
+                <string name="AUDfrom" >AUD
+                </string>
+                <string name="USDfrom" >USD
+                </string>
+                <string name="UZSfrom" >UZS
+                </string>
+                <string name="SGDfrom" >SGD
+                </string>
+                <string name="CNYfrom" >CNY
+                </string>
+                <string name="UAHfrom" >UAH
+                </string>
+                <string name="CHFfrom" >CHF
+                </string>
+            </file>
+            <file
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/values/money_value.xml"
+                qualifiers="" >
+                <string name="HUF" >13.4704
+                </string>
+                <string name="TMT" >10.3168
+                </string>
+                <string name="BRL" >15.6026
+                </string>
+                <string name="RUB" >1.000
+                </string>
+                <string name="FOO" >10.7777
+                </string>
+                <string name="UZS" >15.8518
+                </string>
+                <string name="CAD" >29.8472
+                </string>
+                <string name="JPY" >0.349325
+                </string>
+                <string name="RON" >88.6220
+                </string>
+                <string name="TRY" >16.6610
+                </string>
+                <string name="UAH" >3.64346
+                </string>
+                <string name="DKK" >52.1156
+                </string>
+                <string name="GBP" >47.4258
+                </string>
+                <string name="KGS" >62.7607
+                </string>
+                <string name="MDL" >2.49351
+                </string>
+                <string name="INR" >55.8372
+                </string>
+                <string name="CNY" >46.6446
+                </string>
+                <string name="USD" >29.2770
+                </string>
+                <string name="AZN" >37.2908
+                </string>
+                <string name="BGN" >19.8204
+                </string>
+                <string name="CZK" >15.6163
+                </string>
+                <string name="TJS" >61.8321
+                </string>
+                <string name="AMD" >75.0119
+                </string>
+                <string name="XDR" >45.5483
+                </string>
+                <string name="NOK" >51.1293
+                </string>
+                <string name="LTL" >11.1803
+                </string>
+                <string name="SEK" >43.6290
+                </string>
+                <string name="BYR" >0.00365963
+                </string>
+                <string name="AUD" >30.5238
+                </string>
+                <string name="KRW" >25.9260
+                </string>
+                <string name="ZAR" >37.6755
+                </string>
+                <string name="LVL" >55.4489
+                </string>
+                <string name="EUR" >38.7393
+                </string>
+                <string name="KZT" >19.9008
+                </string>
+                <string name="CHF" >31.9960
+                </string>
+                <string name="SGD" >23.6789
+                </string>
+                <string name="PLN" >9.34793
+                </string>
+            </file>
+            <file
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="title_activity_add_transaction" >AddTransactionActivity
-                </string>
                 <string name="title_section1" >Section 1
                 </string>
                 <string name="title_section3" >Section 3
                 </string>
-                <string name="action_settings" >Settings
-                </string>
                 <string name="title_section2" >Section 2
+                </string>
+                <string name="other" >Other
                 </string>
                 <string name="navigation_drawer_close" >Close navigation drawer
                 </string>
+                <string name="abouttext" >Flags icon:\n- http://famfamfam.com\n\nPatterns:\n- http://noqta.it\n- http://dinpattern.com\n- http://squidfingers.com\n- http://pattrnapp.com\n\nIcons:\n- http://adamwhitcroft.com/batch\n\nHow to:\n- http://stackoverflow.com\n- http://habrahabr.ru\n\nThx:\n- jadis100, Ant-ON, ramallah, spardaev.\n\nWTFPL:\nDo What The Fuck You Want To Public License.
+                </string>
+                <string name="aboutvers" >nanoConverter 0.8.98
+                </string>
+                <string name="updatecomplete" >Update done!
+                </string>
+                <string name="curlist" >Currency list
+                </string>
+                <string name="settingstab" >Settings
+                </string>
                 <string name="title_activity_add_account" >AddAccountActivity
+                </string>
+                <string name="show_onlyFrom" >First only
+                </string>
+                <string name="circle_or_not" >Circle
+                </string>
+                <string name="OfflineCourses" >Courses:
+                </string>
+                <string name="hint_label" >Password Hint
+                </string>
+                <string name="rounded_corner_not" >Rounded Corners
+                </string>
+                <string name="title_activity_welcome" >WelcomeActivity
+                </string>
+                <string name="presets_disc" >Grab rates from
+                </string>
+                <string name="revrates" >Reverse rates
+                </string>
+                <string name="title_activity_register" >RegisterActivity
+                </string>
+                <string name="title_activity_report_display" >ReportDisplayActivity
+                </string>
+                <string name="revratess" >Reverse
+                </string>
+                <string name="forceUpdate" >Pre-udate
+                </string>
+                <string name="sources" >Sources
+                </string>
+                <string name="title_activity_transaction_list" >TransactionListActivity
+                </string>
+                <string name="revratesdis" >Use reversed rates on rates tab
+                </string>
+                <string name="navigation_drawer_open" >Open navigation drawer
+                </string>
+                <string name="Coursestab" >Rates
+                </string>
+                <string name="to_this" >to:
+                </string>
+                <string name="devnull" >Null rate detected!
+                </string>
+                <string name="bkgdis" >Choose app. background
+                </string>
+                <string name="from_this" >from:
+                </string>
+                <string name="loadfrombank" >Preset
+                </string>
+                <string name="Update" >Updates
+                </string>
+                <string name="Updatedis" >Update method
+                </string>
+                <string name="bank" >Bank
+                </string>
+                <string name="course" >Rates
+                </string>
+                <string name="zerocheck" >No data for default currency, will use USD as default. Please update rates, or change source.
+                </string>
+                <string name="FROM" >From currency:
+                </string>
+                <string name="UpdateButtonText" >Update now!
+                </string>
+                <string name="show_bank" >Show Source
+                </string>
+                <string name="conversetab" >Convert
+                </string>
+                <string name="TO" >In currency:
+                </string>
+                <string name="settings" >Settings
+                </string>
+                <string name="abouttap" >Click for detail!
+                </string>
+                <string name="title_transaction_detail" >Transaction Detail
+                </string>
+                <string name="bkg" >Background
+                </string>
+                <string name="ratessource" >Rates sources
+                </string>
+                <string name="defaultcurrencydis" >Currency that will be equal 1.00
+                </string>
+                <string name="show_onlyTo" >Second only
+                </string>
+                <string name="title_activity_add_transaction" >AddTransactionActivity
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="ratessourcedis" >When will get rates?
+                </string>
+                <string name="eq" >=
+                </string>
+                <string name="setcur" >Currency
+                </string>
+                <string name="presets" >Rates
+                </string>
+                <string name="hello" >Enter amount:
+                </string>
+                <string name="curlistdis" >Available for conversation currency
+                </string>
+                <string name="checkinternet" >Check Your Internet connection.
+                </string>
+                <string name="exit" >Exit
+                </string>
+                <string name="action_example" >Example action
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="about" >About
+                </string>
+                <string name="defaultcurrency" >Default currency
+                </string>
+                <string name="curentamount" ></string>
+                <string name="wait" >Please wait . . .
+                </string>
+                <string name="inverse" >Inverse
+                </string>
+                <string name="result" >Results:
+                </string>
+                <string name="show_update" >Show Update
+                </string>
+                <string name="show_cur" >Show Currency
                 </string>
                 <string name="title_activity_dashboard" >DashboardActivity
                 </string>
-                <string name="hint_label" >Password Hint
+                <string name="devzero" >Division by zero!
                 </string>
                 <string name="title_activity_splash" >SplashActivity
                 </string>
                 <string name="title_activity_reports_menu" >ReportsMenuActivity
                 </string>
-                <string name="title_activity_welcome" >WelcomeActivity
-                </string>
-                <string name="title_activity_register" >RegisterActivity
-                </string>
-                <string name="title_transaction_detail" >Transaction Detail
-                </string>
-                <string name="action_example" >Example action
-                </string>
-                <string name="title_activity_report_display" >ReportDisplayActivity
+                <string name="bank_is_this" >Source
                 </string>
                 <string name="app_name" >Denary
                 </string>
-                <string name="hello_world" >Hello world!
-                </string>
-                <string name="title_activity_transaction_list" >TransactionListActivity
-                </string>
-                <string name="navigation_drawer_open" >Open navigation drawer
+                <string name="updateinprogress" >Updating . . .
                 </string>
             </file>
             <file
@@ -7843,6 +9075,24 @@ Never
                 </style>
             </file>
             <file
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/values/themes.xml"
+                qualifiers="" >
+
+                <style
+                    name="MyTheme2"
+                    parent="@android:style/Theme" >
+
+                    <!-- Any customizations for your app running on devices with Theme.Holo here -->
+                </style>
+
+                <style
+                    name="MyTheme"
+                    parent="@android:style/Theme.NoTitleBar" >
+
+                    <!-- Any customizations for your app running on pre-3.0 devices here -->
+                </style>
+            </file>
+            <file
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/values-w820dp/dimens.xml"
                 qualifiers="w820dp" >
                 <dimen name="activity_horizontal_margin" >64dp
@@ -7866,6 +9116,16 @@ Never
             <file
                 name="pref_notification"
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/xml/pref_notification.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="preferences"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/xml/preferences.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="widget_1x1_provider"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/xml/widget_1x1_provider.xml"
                 qualifiers=""
                 type="xml" />
         </source>

@@ -28,13 +28,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 import denary.app.R;
+import denary.app.models.DatabaseModel;
+import denary.app.presenters.LoginPresenter;
 
 /**
  * A login screen that offers login via email/password.
 
  */
-public class LoginActivity extends Activity implements LoaderCallbacks<Cursor>{
+public class LoginActivity extends Activity implements LoaderCallbacks<Cursor>, IView{
 
+    private LoginPresenter myPresenter;
     /**
      * A dummy authentication store containing known user names and passwords.
      * TODO: remove after connecting to a real authentication system.
@@ -57,6 +60,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor>{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        myPresenter = new LoginPresenter(this, new DatabaseModel());
 
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
@@ -221,6 +225,14 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor>{
     @Override
     public void onLoaderReset(Loader<Cursor> cursorLoader) {
 
+    }
+
+    /**
+     * Move to the next activity
+     */
+    @Override
+    public void advance() {
+        //,,,,
     }
 
     private interface ProfileQuery {

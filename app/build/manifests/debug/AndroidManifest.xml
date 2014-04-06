@@ -21,6 +21,8 @@
         </activity>
         <activity android:label="@string/title_activity_transaction_list" android:name="denary.app.views.TransactionListActivity">
         </activity>
+        <activity android:label="Currency Converter" android:name="denary.app.extra.NanoConverter">
+        </activity>
         <activity android:label="@string/title_activity_splash" android:name="denary.app.views.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -28,6 +30,21 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:label="@string/settings" android:name="denary.app.extra.Preferences" android:theme="@style/MyTheme2">
+        </activity>
+        <receiver android:label="nanoConverter" android:name="denary.app.extra.Widget_1x1">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.nanoconverter.zlab.Widget_1x1.ACTION_WIDGET_RECEIVER"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_1x1_provider"/>
+        </receiver>
+        <activity android:label="@string/app_name" android:name="denary.app.extra.Widget_1x1_config" android:theme="@style/MyTheme2">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity>
+
     </application>
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
