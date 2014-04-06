@@ -23,119 +23,98 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="985f1318-54b2-44e9-9588-0a0698c9bd06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/about.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/am.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/au.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/az.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bkg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bkgbr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/br.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/by.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ca.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ch.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/cn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/copy_from_bank.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/cz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/dg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/dk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/dr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/dwnld.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/err.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/europeanunion.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/fam.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/flow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/flow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/gb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/gd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/gg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/good.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/hu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_con_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_tab_con_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_con_col.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_tab_con_col.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_cor_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_tab_cor_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_cor_col.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_tab_cor_col.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_set_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_tab_set_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_set_col.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_tab_set_col.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/in.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/inverse.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/jp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/kg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/kr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/kz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/lt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/lv.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/md.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/no.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/pl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/preview_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ru.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/sett.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/sg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tj.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tm.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/tr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ua.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/us.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/uz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/za.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/extra/NanoConverter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/extra/Preferences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/extra/Widget_1x1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/extra/Widget_1x1_config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/about.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bkgb.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bkgmain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/dgr.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/drr.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/edittext.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/flower.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/gdr.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ggr.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_convert.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_tab_courses.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/mainmenu.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/money_ID.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/money_discription.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/money_value.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/popup_bank.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/popup_copyfrombank.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/shape_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/shape_circle_white.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/shape_square.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/shape_square_rounded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/shape_square_rounded_white.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/shape_square_white.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/widget_1x1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/widget_1x1_circle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/widget_1x1_circle_white.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/xml/widget_1x1_provider.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/widget_1x1_white.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/widget_duel_config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.exr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/AddOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/AddUniqueOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/bolts/AggregateException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/bolts/Capture.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/bolts/Continuation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/CountCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/http/CountingHttpEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/DeleteCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/DeleteFieldOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/FindCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/FunctionCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/GetCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/GetDataCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/IncrementFieldOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/LocationCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/LoginCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/MimeType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/OperationUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/Parse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/Parse4JTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseAnalytics.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseAnalyticsTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/ParseCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseClassName.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseCloud.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseCloudTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/ParseDecoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseDeleteCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/ParseEncoder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseExecutor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/ParseFieldOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/ParseFieldOperations.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseFile.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseFileTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseGeoPoint.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseGetCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseObject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseObjectCRUDTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseObjectCustomTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/encode/ParseObjectEncodingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseObjectOperationsTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParsePostCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParsePush.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParsePutCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseQuery.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseQueryTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/ParseRegistry.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseRelation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseRelationTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseResponse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseRole.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseUploadCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseUser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseUserTestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/custom/Person.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/custom/Person2.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/encode/PointerEncodingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/encode/PointerOrLocalIdEncodingStrategy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/Preconditions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/ProgressCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/RelationOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/RemoveFieldOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/RequestPasswordResetCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/SaveCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/SendCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/SetFieldOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/SignUpCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/bolts/Task.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/bolts/TestBolts.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/bolts/TestTask.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/parse4j_1_4_SNAPSHOT.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/parse4j-master/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_android_1_6_1_RC1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/pre-dexed/debug/support-v4-19.0.1-3bf117e59e2e0f41bbf9219f2be90cdcf1dd583d.jar" afterPath="$PROJECT_DIR$/app/build/pre-dexed/debug/support-v4-19.0.1-3bf117e59e2e0f41bbf9219f2be90cdcf1dd583d.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/denary/app/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/denary/app/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/SplashActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DataBaseModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DataBaseModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models_test/DatabaseModelTest.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models_test/DatabaseModelTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/ParseConfig.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/ParseConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Denary.iws" />
@@ -260,13 +239,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="46425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DatabaseModelTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models_test/DatabaseModelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="1.0857143" vertical-offset="41" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -992,7 +980,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModelTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models_test/ParseInit.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/ParseConfig.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models_test/DatabaseModelTest.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/WelcomePresenter.java" />
@@ -1013,6 +1000,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/SplashActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models_test/DatabaseModelTest.java" />
       </list>
     </option>
   </component>
@@ -1279,6 +1267,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Denary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Denary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1601,23 +1623,6 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
-    <option name="USER" value="" />
-    <option name="PASSWORD" value="" />
-    <option name="mySSHConnectionTimeout" value="30000" />
-    <option name="mySSHReadTimeout" value="30000" />
-    <option name="LAST_MERGED_REVISION" />
-    <option name="MERGE_DRY_RUN" value="false" />
-    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
-    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
-    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
-    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
-    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <option name="FORCE_UPDATE" value="false" />
-    <option name="IGNORE_EXTERNALS" value="false" />
-    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="985f1318-54b2-44e9-9588-0a0698c9bd06" name="Default" comment="" />
@@ -1626,36 +1631,16 @@
     </task>
     <servers />
   </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="798" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3560172" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15982404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5483871" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22434017" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1664,7 +1649,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.04692082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.51466274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.51466274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1926,19 +1911,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DataBaseModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="529" selection-end="529" vertical-scroll-proportion="0.6918239" vertical-offset="0" max-vertical-offset="600">
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models_test/DatabaseModelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="652" selection-end="652" vertical-scroll-proportion="0.5660377" vertical-offset="0" max-vertical-offset="555">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2115,81 +2093,13 @@
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Android</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>Android API 19 Platform</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>app</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>appcompat-v7-19.0.1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models_test/DatabaseModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="713" selection-end="713" vertical-scroll-proportion="1.0857143" vertical-offset="41" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
 
