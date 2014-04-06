@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.os.Handler;
+
 
 import com.parse.ParseException;
 import com.parse.ParseUser;
@@ -14,17 +16,19 @@ import denary.app.models.ParseConfig;
 import denary.app.presenters.WelcomePresenter;
 
 public class SplashActivity extends Activity implements IView{
+    private static int SPLASH_TIME_OUT = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-        WelcomePresenter wp = new WelcomePresenter();
-        advance();
-
-
-
-
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                advance(); // go to login screen
+                finish();
+            }
+        }, SPLASH_TIME_OUT);
     }
 
 
@@ -50,8 +54,8 @@ public class SplashActivity extends Activity implements IView{
 
     @Override
     public void advance(){
-        Intent welcome_intent = new Intent(this, LoginActivity.class);
-        startActivity(welcome_intent);
+        Intent login_intent = new Intent(this, LoginActivity.class);
+        startActivity(login_intent);
     }
 
 

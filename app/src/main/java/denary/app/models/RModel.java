@@ -1,7 +1,8 @@
 package denary.app.models;
 
 /**
- * Created by gtkesh on 3/30/14.
+ * Created by gtkesh on 4/5/14.
  */
-public class RModel {
+public interface RModel {
+    void generateReport(User user);
 }
