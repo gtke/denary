@@ -1,8 +1,11 @@
 package denary.app.models;
 
 import com.parse.LogInCallback;
-import com.parse.ParseException;
-import com.parse.ParseUser;
+//import com.parse.ParseException;
+//import com.parse.ParseUser;
+
+import org.parse4j.ParseUser;
+import org.parse4j.ParseException;
 
 import java.util.IllegalFormatConversionException;
 

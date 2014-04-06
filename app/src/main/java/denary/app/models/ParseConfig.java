@@ -1,20 +1,27 @@
 package denary.app.models;
+import org.parse4j.Parse;
+import org.parse4j.ParseException;
+import org.parse4j.ParseUser;
+
+
+//import com.parse.Parse;
+//import com.parse.ParseUser;
 
 import android.content.Context;
+import android.test.AndroidTestCase;
 
-import com.parse.Parse;
-
-/**
- * Created by mtownsend on 3/30/14.
- */
 public class ParseConfig {
-    private String auth_key = "y6YnnaGukRlmugs9KphSLBH3i1SnJfJw3qWvn6GH";
-    private String secret_key = "L19EYqDDXZ9bBMyM0VQkVCErn8vDDBQJr4CJiqo6";
 
-    public ParseConfig(Context context){
-        Parse.initialize(context, auth_key, secret_key);
+    public ParseConfig() throws Exception {
+        super();
+        run();
     }
 
+    private void run() throws ParseException {
 
+        Parse.initialize("y6YnnaGukRlmugs9KphSLBH3i1SnJfJw3qWvn6GH",
+                "L19EYqDDXZ9bBMyM0VQkVCErn8vDDBQJr4CJiqo6");
+        String email = ParseUser.logIn("admin", "pass123").getEmail();
+    }
 
 }
