@@ -5,21 +5,21 @@ import denary.app.models.User;
 import denary.app.views.IView;
 
 /**
- * Created by gtkesh on 4/5/14.
+ * Created by gtkesh on 4/6/14.
  */
-public class LoginPresenter {
+public class RegisterPresenter {
 
     private final IView myView;
 
     private final DatabaseModel myModel;
 
-    public LoginPresenter(IView view, DatabaseModel model) {
+    public RegisterPresenter(IView view, DatabaseModel model) {
         myView = view;
         myModel = model;
     }
 
-    public boolean onLoginUserClick(User user){
-        if(myModel.login(user)){
+    public boolean onRegisterUserClick(User user){
+        if(myModel.register(user)){
             myView.advance();
             return true;
         }

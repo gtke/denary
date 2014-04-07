@@ -46,4 +46,5 @@ dependencies {
     compile files('libs/Parse-1.4.1/Parse-1.4.1.jar')
     compile files('libs/parse4j-master/target/parse4j-1.4-SNAPSHOT.jar')
     compile 'org.slf4j:slf4j-android:1.6.1-RC1'
+    compile files('libs/parse4j-1.4-SNAPSHOT.jar')
 }

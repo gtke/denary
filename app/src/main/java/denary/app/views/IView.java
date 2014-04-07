@@ -5,5 +5,6 @@ package denary.app.views;
  */
 public interface IView {
     void advance();
+    void advanceAlternative();
 
 }

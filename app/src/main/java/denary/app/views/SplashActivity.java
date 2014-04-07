@@ -56,9 +56,14 @@ public class SplashActivity extends Activity implements IView{
     @Override
     public void advance(){
 
-     //   Intent login_intent = new Intent(this, LoginActivity.class);
-        Intent converter = new Intent(this, NanoConverter.class);
-        startActivity(converter);
+        Intent i = new Intent(this, LoginActivity.class);
+     //   Intent i = new Intent(this, NanoConverter.class);
+        startActivity(i);
+
+    }
+
+    @Override
+    public void advanceAlternative() {
 
     }
 

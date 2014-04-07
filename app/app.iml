@@ -72,6 +72,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="appcompat-v7-19.0.1" level="project" />
     <orderEntry type="library" exported="" name="parse4j-1.4-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="1_parse4j-1.4-SNAPSHOT" level="project" />
     <orderEntry type="library" exported="" name="Parse-1.4.1" level="project" />
     <orderEntry type="library" exported="" name="support-v4-19.0.1" level="project" />
     <orderEntry type="library" exported="" name="slf4j-android-1.6.1-RC1" level="project" />
