@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -12,17 +13,22 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.Button;
 import android.widget.TextView;
 
 import denary.app.R;
+import denary.app.presenters.DashboardPresenter;
 
 public class DashboardActivity extends Activity
-        implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+        implements NavigationDrawerFragment.NavigationDrawerCallbacks, IView{
+
+    private DashboardPresenter myPresenter;
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
      */
     private NavigationDrawerFragment mNavigationDrawerFragment;
+
 
     /**
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
@@ -33,6 +39,15 @@ public class DashboardActivity extends Activity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
+        myPresenter = new DashboardPresenter(this, null);
+
+        Button createAccount = (Button) findViewById(R.id.make_account);
+        createAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myPresenter.advance();
+            }
+        });
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -98,6 +113,17 @@ public class DashboardActivity extends Activity
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void advance() {
+        Intent make_account = new Intent(this, AddAccountActivity.class);
+        startActivity(make_account);
+    }
+
+    @Override
+    public void advanceAlternative() {
+
     }
 
     /**

@@ -4,9 +4,11 @@
     <string name="app_name">Denary</string>
     <string name="title_transaction_detail">Transaction Detail</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Dashboard</string>
+    <string name="title_section2">Transactions</string>
+    <string name="title_section3">Reports</string>
+    <string name="title_section4">Settings</string>
+
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>

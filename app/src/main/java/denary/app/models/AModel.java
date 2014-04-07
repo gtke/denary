@@ -1,6 +1,7 @@
 package denary.app.models;
 
-import java.util.Collection;
+import com.parse.ParseObject;
+import java.util.List;
 
 /**
  * Created by gtkesh on 3/30/14.
@@ -8,6 +9,6 @@ import java.util.Collection;
 public interface AModel {
     void createAccount(final User user, final Account account);
     void deleteAccount(final User user, final Account account);
-    Collection<Account> getAllAccounts();
-    void deleteAllAccounts();
+    List<ParseObject> getAllAccounts(User user);
+    void deleteAllAccounts(User user);
 }

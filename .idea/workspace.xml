@@ -23,109 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="985f1318-54b2-44e9-9588-0a0698c9bd06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/1_parse4j_1_4_SNAPSHOT.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/RegisterPresenter.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/Parse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseAnalytics.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseClassName.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseCloud.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseExecutor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseGeoPoint.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParsePush.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseQuery.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseRelation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseRole.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/ParseUser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/bolts/AggregateException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/bolts/Capture.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/bolts/Continuation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/bolts/Task.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/CountCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/DeleteCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/FindCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/FunctionCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/GetCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/GetDataCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/LocationCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/LoginCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/ParseCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/ProgressCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/RequestPasswordResetCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/SaveCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/SendCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/callback/SignUpCallback.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseDeleteCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseGetCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParsePostCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParsePutCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseResponse.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/command/ParseUploadCommand.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/encode/ParseObjectEncodingStrategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/encode/PointerEncodingStrategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/encode/PointerOrLocalIdEncodingStrategy.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/http/CountingHttpEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/AddOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/AddUniqueOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/DeleteFieldOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/IncrementFieldOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/OperationUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/ParseFieldOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/ParseFieldOperations.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/RelationOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/RemoveFieldOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/operation/SetFieldOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/MimeType.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/ParseDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/ParseEncoder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/ParseRegistry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/main/java/org/parse4j/util/Preconditions.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/Parse4JTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseAnalyticsTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseCloudTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseFileTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseObjectCRUDTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseObjectCustomTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseObjectOperationsTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseQueryTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseRelationTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/ParseUserTestCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/bolts/TestBolts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/bolts/TestTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/custom/Person.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/java/org/parse4j/custom/Person2.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.exr" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/parse4j-master/src/test/resources/parse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models_test/DatabaseModelTest.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/AddAccountPresenter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/DashboardPresenter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/IView.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/IView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/ParseConfig.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/ParseConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/AModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/AModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/Account.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/AccountModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/AccountModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/AddAccountActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/AddAccountActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/DashboardActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/DashboardActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/NavigationDrawerFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/NavigationDrawerFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/denary/app/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/denary/app/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/RegisterActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/SplashActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/SplashActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/slf4j_android_1_6_1_RC1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_android_1_6_1_RC1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_account.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_account.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Denary.iws" />
@@ -190,83 +102,96 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DatabaseModel.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java">
+      <file leaf-file-name="TransactionListActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/TransactionListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="13" selection-start="693" selection-end="693" vertical-scroll-proportion="0.4915254" vertical-offset="23" max-vertical-offset="1215">
+            <state line="33" column="43" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="2055">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java">
+      <file leaf-file-name="AddAccountActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/AddAccountActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="11" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/RegisterActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="38" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1665">
+            <state line="76" column="65" selection-start="2774" selection-end="2774" vertical-scroll-proportion="0.7339246" vertical-offset="479" max-vertical-offset="1470">
               <folding>
-                <element signature="e#1713#2868#0" expanded="true" />
-                <element signature="e#2857#2858#0" expanded="true" />
+                <element signature="e#1910#2798#0" expanded="true" />
+                <element signature="e#2787#2788#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPresenter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java">
+      <file leaf-file-name="DashboardActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/DashboardActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="21" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="120" column="34" selection-start="4000" selection-end="4000" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="2400">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1364#1519#0" expanded="true" />
+                <element signature="e#1508#1509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterPresenter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/RegisterPresenter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" vertical-offset="114" max-vertical-offset="510">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_register.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
+      <file leaf-file-name="activity_dashboard.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml">
           <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state line="86" column="56" selection-start="3673" selection-end="3690" vertical-scroll-proportion="0.0" vertical-offset="873" max-vertical-offset="1665">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java">
+      <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="161" column="50" selection-start="5416" selection-end="5416" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3060">
+            <state line="49" column="5" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+              <folding>
+                <element signature="e#556#557#0" expanded="true" />
+                <element signature="e#589#590#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#773#774#0" expanded="true" />
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/AccountModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="72" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="975">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2196#2557#0" expanded="true" />
-                <element signature="e#2546#2547#0" expanded="true" />
-                <element signature="e#2693#2839#0" expanded="true" />
-                <element signature="e#2828#2829#0" expanded="true" />
-                <element signature="e#4027#4069#0" expanded="true" />
-                <element signature="e#4265#4305#0" expanded="true" />
-                <element signature="e#4446#4485#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_add_account.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_account.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="90" column="0" selection-start="3774" selection-end="3774" vertical-scroll-proportion="-12.346154" vertical-offset="1029" max-vertical-offset="1800">
+              <folding>
+                <element signature="e#231#266#0" expanded="true" />
+                <element signature="e#292#327#0" expanded="true" />
+                <element signature="e#351#384#0" expanded="true" />
+                <element signature="e#411#444#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -946,23 +871,15 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_transaction_detail.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-large/refs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-sw600dp/refs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/xml/pref_headers.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_reports_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/reports_menu.xml" />
         <option value="$PROJECT_DIR$/app/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/TransactionListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views2/AddTransactionActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/NavigationDrawerFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/AModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/AccountModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/TModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/TransactionModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/UModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/UserModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/Account.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/Transaction.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModelTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models_test/ParseInit.java" />
@@ -973,7 +890,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/menu/splash.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/RModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/extra/Widget_1x1_config.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/extra/Preferences.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/extra/NanoConverter.java" />
@@ -981,19 +897,31 @@
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/extra/Widget_1x1.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/User.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models_test/DatabaseModelTest.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/ParseConfig.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/IView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/SplashActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/RegisterPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/RegisterActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/NavigationDrawerFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/AModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/User.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_account.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/Account.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/DashboardPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/DashboardActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/AccountModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/AddAccountPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/AddAccountActivity.java" />
       </list>
     </option>
   </component>
@@ -1082,62 +1010,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1630,7 +1502,7 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35550788" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.10117302" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23945409" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22332506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1639,7 +1511,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39205956" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37965262" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4057072" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1673,80 +1545,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="529" selection-end="529" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="480">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="9" selection-start="11514" selection-end="11514" vertical-scroll-proportion="0.0" vertical-offset="4965" max-vertical-offset="5235">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2196#2557#0" expanded="true" />
-            <element signature="e#2546#2547#0" expanded="true" />
-            <element signature="e#2693#2839#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-            <element signature="e#4027#4069#0" expanded="true" />
-            <element signature="e#4265#4305#0" expanded="true" />
-            <element signature="e#4446#4485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/AddTransactionActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="2085">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/DashboardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="885">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/TransactionModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/UModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/UserModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/NavigationDrawerFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="13" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0" vertical-offset="495" max-vertical-offset="3915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/android.jar!/android/content/ContextWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="108" column="0" selection-start="5213" selection-end="5213" vertical-scroll-proportion="0.33333334" vertical-offset="1468" max-vertical-offset="2895" />
@@ -1783,20 +1581,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/AccountModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/TransactionListActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="22" selection-start="2044" selection-end="2044" vertical-scroll-proportion="1.1410459" vertical-offset="0" max-vertical-offset="2055">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/WelcomePresenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="0" selection-start="291" selection-end="291" vertical-scroll-proportion="0.275" vertical-offset="0" max-vertical-offset="600">
@@ -1813,23 +1597,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="426" selection-end="426" vertical-scroll-proportion="0.53571427" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/TModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="28" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/AModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="326" selection-end="326" vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="504">
           <folding />
         </state>
       </provider>
@@ -1873,13 +1643,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.039893616" vertical-offset="0" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/widget_1x1.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -1908,7 +1671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="14" selection-start="182" selection-end="202" vertical-scroll-proportion="0.17979452" vertical-offset="0" max-vertical-offset="51450">
           <folding>
-            <element signature="e#0#189158#0" expanded="false" />
+            <element signature="e#0#189772#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1993,13 +1756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/IView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="149" selection-end="149" vertical-scroll-proportion="0.2556818" vertical-offset="0" max-vertical-offset="528">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
@@ -2019,42 +1775,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="33" selection-start="437" selection-end="437" vertical-scroll-proportion="0.42045453" vertical-offset="48" max-vertical-offset="645">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
         <state line="86" column="56" selection-start="3673" selection-end="3690" vertical-scroll-proportion="0.0" vertical-offset="873" max-vertical-offset="1665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="161" column="50" selection-start="5416" selection-end="5416" vertical-scroll-proportion="0.0" vertical-offset="1989" max-vertical-offset="3060">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2196#2557#0" expanded="true" />
-            <element signature="e#2546#2547#0" expanded="true" />
-            <element signature="e#2693#2839#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-            <element signature="e#4027#4069#0" expanded="true" />
-            <element signature="e#4265#4305#0" expanded="true" />
-            <element signature="e#4446#4485#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="11" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
         </state>
       </provider>
@@ -2068,9 +1794,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="50" selection-start="398" selection-end="398" vertical-scroll-proportion="0.26143792" vertical-offset="0" max-vertical-offset="1380">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/NavigationDrawerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="27" selection-start="7419" selection-end="7419" vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="4020">
+          <folding>
+            <element signature="e#3911#3945#0" expanded="true" />
+            <element signature="e#3971#4005#0" expanded="true" />
+            <element signature="e#4031#4065#0" expanded="true" />
+            <element signature="e#4091#4125#0" expanded="true" />
+            <element signature="e#7419#7556#0" expanded="true" />
+            <element signature="e#7545#7546#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="30" selection-start="4771" selection-end="4771" vertical-scroll-proportion="0.0" vertical-offset="1563" max-vertical-offset="2085">
+          <folding>
+            <element signature="e#1874#1908#0" expanded="true" />
+            <element signature="e#1978#2012#0" expanded="true" />
+            <element signature="e#2082#2116#0" expanded="true" />
+            <element signature="e#2186#2220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/RegisterActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="38" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1665">
+        <state line="82" column="5" selection-start="2876" selection-end="2876" vertical-scroll-proportion="1.8965517" vertical-offset="0" max-vertical-offset="1665">
           <folding>
             <element signature="e#1713#2868#0" expanded="true" />
             <element signature="e#2857#2858#0" expanded="true" />
@@ -2078,19 +1844,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="21" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="7" column="38" selection-start="170" selection-end="170" vertical-scroll-proportion="0.20114942" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="26" selection-start="2747" selection-end="2747" vertical-scroll-proportion="0.0" vertical-offset="693" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/AModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="364" selection-end="364" vertical-scroll-proportion="0.3448276" vertical-offset="0" max-vertical-offset="522">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="27" selection-start="503" selection-end="503" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/TransactionListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="43" selection-start="981" selection-end="981" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="2055">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_account.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="90" column="0" selection-start="3774" selection-end="3774" vertical-scroll-proportion="-12.346154" vertical-offset="1029" max-vertical-offset="1800">
+          <folding>
+            <element signature="e#231#266#0" expanded="true" />
+            <element signature="e#292#327#0" expanded="true" />
+            <element signature="e#351#384#0" expanded="true" />
+            <element signature="e#411#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="5" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <folding>
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/IView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="1" selection-start="149" selection-end="149" vertical-scroll-proportion="0.25862068" vertical-offset="0" max-vertical-offset="522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dashboard.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/AccountModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="72" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="975">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="13" selection-start="693" selection-end="693" vertical-scroll-proportion="0.4915254" vertical-offset="23" max-vertical-offset="1215">
-          <folding />
+        <state line="26" column="5" selection-start="570" selection-end="570" vertical-scroll-proportion="0.7472284" vertical-offset="53" max-vertical-offset="510">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="29" selection-start="5222" selection-end="5222" vertical-scroll-proportion="0.7339246" vertical-offset="1829" max-vertical-offset="2940">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/DashboardPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="25" selection-start="487" selection-end="487" vertical-scroll-proportion="0.6984479" vertical-offset="0" max-vertical-offset="465">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/DashboardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="34" selection-start="4000" selection-end="4000" vertical-scroll-proportion="0.0" vertical-offset="1248" max-vertical-offset="2400">
+          <folding>
+            <element signature="e#1364#1519#0" expanded="true" />
+            <element signature="e#1508#1509#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/AddAccountPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="25" selection-start="575" selection-end="575" vertical-scroll-proportion="0.73170733" vertical-offset="0" max-vertical-offset="465">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/AddAccountActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="65" selection-start="2774" selection-end="2774" vertical-scroll-proportion="0.7339246" vertical-offset="479" max-vertical-offset="1470">
+          <folding>
+            <element signature="e#1910#2798#0" expanded="true" />
+            <element signature="e#2787#2788#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

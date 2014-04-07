@@ -1292,9 +1292,10 @@
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_transaction_list">TransactionListActivity</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_section1">Dashboard</string>
+    <string name="title_section2">Transactions</string>
+    <string name="title_section3">Reports</string>
+    <string name="title_section4">Settings</string>
     <string name="title_transaction_detail">Transaction Detail</string>
     <string name="to_this">to:</string>
     <string name="updatecomplete">Update done!</string>

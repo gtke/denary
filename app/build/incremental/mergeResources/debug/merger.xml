@@ -8782,11 +8782,13 @@ Forex
             <file
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings.xml"
                 qualifiers="" >
-                <string name="title_section1" >Section 1
+                <string name="title_section1" >Dashboard
                 </string>
-                <string name="title_section3" >Section 3
+                <string name="title_section3" >Reports
                 </string>
-                <string name="title_section2" >Section 2
+                <string name="title_section2" >Transactions
+                </string>
+                <string name="title_section4" >Settings
                 </string>
                 <string name="other" >Other
                 </string>
@@ -8804,9 +8806,9 @@ Forex
                 </string>
                 <string name="title_activity_add_account" >AddAccountActivity
                 </string>
-                <string name="show_onlyFrom" >First only
-                </string>
                 <string name="circle_or_not" >Circle
+                </string>
+                <string name="show_onlyFrom" >First only
                 </string>
                 <string name="hint_label" >Password Hint
                 </string>
@@ -8828,9 +8830,9 @@ Forex
                 </string>
                 <string name="revratess" >Reverse
                 </string>
-                <string name="title_activity_transaction_list" >TransactionListActivity
-                </string>
                 <string name="sources" >Sources
+                </string>
+                <string name="title_activity_transaction_list" >TransactionListActivity
                 </string>
                 <string name="revratesdis" >Use reversed rates on rates tab
                 </string>
@@ -8876,9 +8878,9 @@ Forex
                 </string>
                 <string name="bkg" >Background
                 </string>
-                <string name="ratessource" >Rates sources
-                </string>
                 <string name="defaultcurrencydis" >Currency that will be equal 1.00
+                </string>
+                <string name="ratessource" >Rates sources
                 </string>
                 <string name="show_onlyTo" >Second only
                 </string>
