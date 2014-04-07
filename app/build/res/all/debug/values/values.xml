@@ -1271,6 +1271,7 @@
     <string name="sources">Sources</string>
     <string name="title_activity_add_account">AddAccountActivity</string>
     <string name="title_activity_add_transaction">AddTransactionActivity</string>
+    <string name="title_activity_current_account">CurrentAccountActivity</string>
     <string name="title_activity_dashboard">DashboardActivity</string>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings_activity_login.xml -->
     <eat-comment />
@@ -1291,6 +1292,7 @@
 
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_transaction_list">TransactionListActivity</string>
+    <string name="title_activity_transactions">TransactionsActivity</string>
     <string name="title_activity_welcome">WelcomeActivity</string>
     <string name="title_section1">Dashboard</string>
     <string name="title_section2">Transactions</string>

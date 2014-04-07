@@ -7941,6 +7941,11 @@ false
                 qualifiers=""
                 type="layout" />
             <file
+                name="activity_current_account"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/activity_current_account.xml"
+                qualifiers=""
+                type="layout" />
+            <file
                 name="activity_dashboard"
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/activity_dashboard.xml"
                 qualifiers=""
@@ -8063,6 +8068,11 @@ false
             <file
                 name="add_transaction"
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/menu/add_transaction.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="current_account"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/menu/current_account.xml"
                 qualifiers=""
                 type="menu" />
             <file
@@ -8784,13 +8794,15 @@ Forex
                 qualifiers="" >
                 <string name="title_section1" >Dashboard
                 </string>
+                <string name="title_activity_transactions" >TransactionsActivity
+                </string>
                 <string name="title_section3" >Reports
                 </string>
                 <string name="title_section2" >Transactions
                 </string>
-                <string name="title_section4" >Settings
-                </string>
                 <string name="other" >Other
+                </string>
+                <string name="title_section4" >Settings
                 </string>
                 <string name="navigation_drawer_close" >Close navigation drawer
                 </string>
@@ -8829,6 +8841,8 @@ Forex
                 <string name="forceUpdate" >Pre-udate
                 </string>
                 <string name="revratess" >Reverse
+                </string>
+                <string name="title_activity_current_account" >CurrentAccountActivity
                 </string>
                 <string name="sources" >Sources
                 </string>
@@ -8894,9 +8908,9 @@ Forex
                 </string>
                 <string name="setcur" >Currency
                 </string>
-                <string name="curlistdis" >Available for conversation currency
-                </string>
                 <string name="hello" >Enter amount:
+                </string>
+                <string name="curlistdis" >Available for conversation currency
                 </string>
                 <string name="presets" >Rates
                 </string>
@@ -9129,6 +9143,16 @@ Never
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/xml/widget_1x1_provider.xml"
                 qualifiers=""
                 type="xml" />
+            <file
+                name="transactions"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/menu/transactions.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_transactions"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/activity_transactions.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/Users/gtkesh/Desktop/Denary/app/build/res/rs/debug" />
         <source path="/Users/gtkesh/Desktop/Denary/app/build/res/generated/debug" />

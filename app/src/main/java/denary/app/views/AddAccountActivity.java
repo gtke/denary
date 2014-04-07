@@ -68,6 +68,7 @@ public class AddAccountActivity extends Activity implements IView {
                 cardNumber = _cardNumber.getText().toString();
                 tag = _tag.getText().toString();
                 balance = _balance.getText().toString();
+
                 Account account = new Account(accountName,bankName, tag, balance, cardNumber);
                 Context context = getApplicationContext();
                 CharSequence text = "Account successfully created!";
@@ -77,7 +78,6 @@ public class AddAccountActivity extends Activity implements IView {
                 myPresenter.onAddAccountUserClick(user, account);
             }
         });
-
     }
 
 

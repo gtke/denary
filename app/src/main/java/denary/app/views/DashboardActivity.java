@@ -7,22 +7,33 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
+import com.parse.ParseQueryAdapter;
+import com.parse.ParseUser;
 
 import denary.app.R;
+import denary.app.models.Transaction;
 import denary.app.presenters.DashboardPresenter;
 
 public class DashboardActivity extends Activity
-        implements NavigationDrawerFragment.NavigationDrawerCallbacks, IView{
+        implements NavigationDrawerFragment.NavigationDrawerCallbacks, IDashboardView{
 
     private DashboardPresenter myPresenter;
+    private ParseQueryAdapter<ParseObject> adapter;
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -41,14 +52,20 @@ public class DashboardActivity extends Activity
         setContentView(R.layout.activity_dashboard);
         myPresenter = new DashboardPresenter(this, null);
 
-        Button createAccount = (Button) findViewById(R.id.make_account);
-        createAccount.setOnClickListener(new View.OnClickListener() {
+        Button createAccountButton = (Button) findViewById(R.id.make_account);
+        createAccountButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 myPresenter.advance();
             }
         });
-
+        Button allTransactionsButton = (Button)findViewById(R.id.all_transactions_btn);
+        allTransactionsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myPresenter.advanceAlternative();
+            }
+        });
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
         mTitle = getTitle();
@@ -57,6 +74,37 @@ public class DashboardActivity extends Activity
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
+
+
+        adapter = new ParseQueryAdapter<ParseObject>(this, new ParseQueryAdapter.QueryFactory<ParseObject>() {
+            public ParseQuery<ParseObject> create() {
+                ParseQuery query = new ParseQuery("Account");
+                query.whereEqualTo("owner", ParseUser.getCurrentUser().getEmail());
+                query.orderByDescending("dateCreated");
+                return query;
+            }
+        });
+
+        adapter.setTextKey("name");
+        final ListView listView = (ListView) findViewById(R.id.listView);
+        listView.setAdapter(adapter);
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view,
+                                    int position, long id) {
+                try{
+                    ParseObject item = (ParseObject) listView.getItemAtPosition(position);
+                    String account_name = item.getString("name");
+                    Log.d("account name: ", account_name);
+                    Toast.makeText(getApplicationContext(),
+                            "Account: " + account_name, Toast.LENGTH_LONG)
+                            .show();
+                    myPresenter.advance(account_name);
+                }catch(Exception e){
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 
     @Override
@@ -122,8 +170,15 @@ public class DashboardActivity extends Activity
     }
 
     @Override
-    public void advanceAlternative() {
+    public void advance(String s) {
+        Intent current_account = new Intent(this, CurrentAccountActivity.class);
+        startActivity(current_account);
+    }
 
+    @Override
+    public void advanceAlternative() {
+        Intent allTransactions = new Intent(this, TransactionsActivity.class);
+        startActivity(allTransactions);
     }
 
     /**

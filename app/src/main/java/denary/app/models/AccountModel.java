@@ -17,7 +17,7 @@ public class AccountModel implements AModel{
     @Override
     public void createAccount(User user, Account _account) {
         ParseObject account = new ParseObject("Account");
-
+        account.put("name", _account.getName());
         account.put("owner", user.getEmail());
         account.put("bank_name", _account.getBank_name());
         account.put("tag", _account.getTag());
