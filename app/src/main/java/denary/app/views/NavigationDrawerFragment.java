@@ -4,6 +4,8 @@ package denary.app.views;
 import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
+import android.app.FragmentManager;
+import android.content.Intent;
 import android.support.v4.app.ActionBarDrawerToggle;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -38,7 +40,7 @@ public class NavigationDrawerFragment extends Fragment {
 
     /**
      * Per the design guidelines, you should show the drawer on launch until the user manually
-     * expands it. This shared preference tracks this.
+     * expands it. This shared preference `tracks this.
      */
     private static final String PREF_USER_LEARNED_DRAWER = "navigation_drawer_learned";
 
@@ -59,6 +61,7 @@ public class NavigationDrawerFragment extends Fragment {
     private int mCurrentSelectedPosition = 0;
     private boolean mFromSavedInstanceState;
     private boolean mUserLearnedDrawer;
+    private boolean alreadyOpened;
 
     public NavigationDrawerFragment() {
     }
@@ -97,6 +100,7 @@ public class NavigationDrawerFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 selectItem(position);
+
             }
         });
         mDrawerListView.setAdapter(new ArrayAdapter<String>(
@@ -194,14 +198,36 @@ public class NavigationDrawerFragment extends Fragment {
 
     private void selectItem(int position) {
         mCurrentSelectedPosition = position;
-        if (mDrawerListView != null) {
-            mDrawerListView.setItemChecked(position, true);
-        }
-        if (mDrawerLayout != null) {
-            mDrawerLayout.closeDrawer(mFragmentContainerView);
-        }
-        if (mCallbacks != null) {
-            mCallbacks.onNavigationDrawerItemSelected(position);
+        Intent intent;
+        switch(position) {
+            case 0:
+                //Dashboard
+                if (alreadyOpened) {
+                    intent = new Intent(this.getActivity(), DashboardActivity.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
+                } else {
+                    alreadyOpened = true;
+                }
+                break;
+            case 1:
+                //Transactions
+                intent = new Intent(this.getActivity(), TransactionListActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(new Intent(this.getActivity(), TransactionListActivity.class));
+                break;
+            case 2:
+                //Reports
+                intent = new Intent(this.getActivity(), ReportDisplayActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(new Intent(this.getActivity(), ReportDisplayActivity.class));
+                break;
+            case 3:
+                //Settings
+                intent = new Intent(this.getActivity(), SettingsActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(new Intent(this.getActivity(), SettingsActivity.class));
+                break;
         }
     }
 
@@ -250,12 +276,6 @@ public class NavigationDrawerFragment extends Fragment {
         if (mDrawerToggle.onOptionsItemSelected(item)) {
             return true;
         }
-
-        if (item.getItemId() == R.id.action_example) {
-            Toast.makeText(getActivity(), "Example action.", Toast.LENGTH_SHORT).show();
-            return true;
-        }
-
         return super.onOptionsItemSelected(item);
     }
 
