@@ -14,6 +14,19 @@ import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
 import android.widget.TextView;
 
+import com.parse.FindCallback;
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
+import com.parse.ParseUser;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 import denary.app.R;
 
 public class ReportDisplayActivity extends Activity
@@ -33,6 +46,34 @@ public class ReportDisplayActivity extends Activity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_report_display);
+
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("currentQuery");
+        query.whereEqualTo("owner", ParseUser.getCurrentUser().getEmail());
+        query.orderByDescending("createdAt");
+        query.setLimit(1);
+        query.findInBackground(new FindCallback<ParseObject>() {
+            public void done(List<ParseObject> dateQuery, ParseException e) {
+                if (e == null) {
+                    try {
+                        TextView display = (TextView) findViewById(R.id.textView);
+                        display.setText("");
+                        generateSpendingReport((Date) dateQuery.get(0).get("start"),
+                                (Date) dateQuery.get(0).get("end"));
+                        generateIncomeReport((Date) dateQuery.get(0).get("start"),
+                                (Date) dateQuery.get(0).get("end"));
+                    } catch (ParseException e1) {
+                        e1.printStackTrace();
+                    }
+
+
+                } else {
+                    System.out.println("Failed to get transactions");
+
+                }
+            }
+        });
+
+
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -98,6 +139,106 @@ public class ReportDisplayActivity extends Activity
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+    private void generateSpendingReport(Date start, Date end) throws ParseException {
+        // todo:
+        // get the correct date range from the user input (need to figure out)
+        // query all the tags for the given user for a give DATE RANGE (user input)
+        // sum up all the transactions that belong to a certain TAG (e.g. FOOD, CHICKS, whatever)
+        // repeat that process over the account set for the particular user and then represent the report
+
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("Transaction");
+        query.whereEqualTo("owner", ParseUser.getCurrentUser().getEmail());
+        query.whereGreaterThanOrEqualTo("createdAt", start);
+        query.whereLessThanOrEqualTo("createdAt", end);
+        List<ParseObject> results = query.find();
+
+        HashMap<String, Double> map = new HashMap<String, Double>();
+
+        for(ParseObject o : results){
+            String key = o.get("tag").toString();
+            Double value = Double.parseDouble(o.get("amount").toString());
+            if(map.get(key)==null){
+                if(value < 0.0){
+                    map.put(key,value);
+                }
+            }else{
+                if(value < 0.0){
+                    Double old_value = map.get(key);
+                    map.put(key, old_value + value);
+                }
+            }
+        }
+
+        DateFormat displayFormat = new SimpleDateFormat("dd/MM/yyyy");
+
+        TextView display = (TextView) findViewById(R.id.textView);
+
+        display.append("Spending Category Report for " + ParseUser.getCurrentUser().get("name")+"\n");
+        display.append(displayFormat.format(start) + " - " + displayFormat.format(end) + "\n");
+        double total = 0;
+        for (Map.Entry<String, Double> entry : map.entrySet()) {
+            String key = entry.getKey();
+            Double value = entry.getValue();
+            display.append("\t" + key+ " : " + Math.abs(value)+"\n");
+            total += Math.abs(value);
+
+        }
+        display.append("\n");
+        display.append("\t"+ "Total: " + total);
+        display.append("\n");
+
+    }
+
+    private void generateIncomeReport(Date start, Date end) throws ParseException{
+        // todo:
+        // get the correct date range from the user input (need to figure out)
+        // query all the tags for the given user for a give DATE RANGE (user input)
+        // sum up all the transactions that belong to a certain TAG (e.g. FOOD, CHICKS, whatever)
+        // repeat that process over the account set for the particular user and then represent the report
+
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("Transaction");
+        query.whereEqualTo("owner", ParseUser.getCurrentUser().getEmail());
+        query.whereGreaterThanOrEqualTo("createdAt", start);
+        query.whereLessThanOrEqualTo("createdAt", end);
+        List<ParseObject> results = query.find();
+
+        HashMap<String, Double> map = new HashMap<String, Double>();
+
+        for(ParseObject o : results){
+            String key = o.get("tag").toString();
+            Double value = Double.parseDouble(o.get("amount").toString());
+            if(map.get(key)==null){
+                if(value > 0.0){
+                    map.put(key,value);
+                }
+            }else{
+                if(value > 0.0){
+                    Double old_value = map.get(key);
+                    map.put(key, old_value + value);
+                }
+            }
+        }
+
+        DateFormat displayFormat = new SimpleDateFormat("dd/MM/yyyy");
+
+        TextView display = (TextView) findViewById(R.id.textView);
+
+        display.append("\n"+"Income Report for " + ParseUser.getCurrentUser().get("name") + "\n");
+        display.append(displayFormat.format(start) + " - " + displayFormat.format(end) + "\n");
+        double total = 0;
+        for (Map.Entry<String, Double> entry : map.entrySet()) {
+            String key = entry.getKey();
+            Double value = entry.getValue();
+            display.append("\t" + key+ " : " + Math.abs(value)+"\n");
+            total += Math.abs(value);
+
+        }
+        display.append("\n");
+        display.append("\t"+ "Total: " + total);
+        display.append("\n");
+
+
     }
 
     /**

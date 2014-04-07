@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -12,27 +13,44 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseUser;
+import com.parse.SaveCallback;
+
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import denary.app.R;
+import denary.app.models.ReportModel;
+import denary.app.presenters.ReportPresenter;
 
 public class ReportsMenuActivity extends Activity
-        implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+        implements NavigationDrawerFragment.NavigationDrawerCallbacks, IView {
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
      */
     private NavigationDrawerFragment mNavigationDrawerFragment;
 
+    private static ReportPresenter myPresenter;
+
     /**
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
+    private static Button generate_report_button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reports_menu);
+        myPresenter = new ReportPresenter(this, new ReportModel());
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -42,6 +60,10 @@ public class ReportsMenuActivity extends Activity
         mNavigationDrawerFragment.setUp(
                 R.id.navigation_drawer,
                 (DrawerLayout) findViewById(R.id.drawer_layout));
+
+
+
+
     }
 
     @Override
@@ -102,6 +124,18 @@ public class ReportsMenuActivity extends Activity
         return super.onOptionsItemSelected(item);
     }
 
+
+    @Override
+    public void advance() {
+        Intent i  = new Intent(this, ReportDisplayActivity.class);
+        startActivity(i);
+    }
+
+    @Override
+    public void advanceAlternative() {
+
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
@@ -130,9 +164,66 @@ public class ReportsMenuActivity extends Activity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_reports_menu, container, false);
+            final View rootView = inflater.inflate(R.layout.fragment_reports_menu, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+
+            generate_report_button = (Button) rootView.findViewById(R.id.generate_report_button);
+            generate_report_button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    DateFormat sourceFormat = new SimpleDateFormat("dd/MM/yyyy");
+
+                    Date startDate = null;
+                    try {
+                        startDate = sourceFormat.parse("01/01/1971");
+                    } catch (java.text.ParseException e) {
+                        e.printStackTrace();
+                    }
+                    Date endDate = null;
+                    try {
+                        endDate = sourceFormat.parse("01/01/3000");
+                    } catch (java.text.ParseException e) {
+                        e.printStackTrace();
+                    }
+
+
+
+                    EditText s = (EditText) rootView.findViewById(R.id.startDate);
+                    try {
+                        if (startDate != null && s.getText().toString().length() > 1) {
+                            startDate = sourceFormat.parse(s.getText().toString());
+                        }
+                    } catch (java.text.ParseException e1) {
+                        e1.printStackTrace();
+                    }
+
+                    EditText e = (EditText) rootView.findViewById(R.id.endDate);
+                    try {
+                        if (endDate != null && e.getText().toString().length() > 0) {
+                            endDate = sourceFormat.parse(e.getText().toString());
+                        }
+                    } catch (java.text.ParseException e1) {
+                        e1.printStackTrace();
+                    }
+
+                    ParseObject currentQuery = new ParseObject("currentQuery");
+                    currentQuery.put("start", startDate);
+                    currentQuery.put("end", endDate);
+                    currentQuery.put("owner",ParseUser.getCurrentUser().getEmail());
+                    try {
+                        currentQuery.save();
+                        currentQuery.saveInBackground(new SaveCallback() {
+                            public void done(ParseException e) {
+                                myPresenter.onGenereteReportUserClick();
+                            }
+                        });
+                    } catch (ParseException e1) {
+                        e1.printStackTrace();
+                    }
+                }
+            });
+
             return rootView;
         }
 

@@ -13,14 +13,16 @@ import java.util.List;
 public class TransactionModel implements TModel{
     @Override
     public void addTransaction(User user, Account account, Transaction _transaction) {
-        ParseObject transaction = new ParseObject("Transaction");
-        transaction.put("owner", user.getEmail());
-        transaction.put("account", account.getName());
-        transaction.put("name", _transaction.getName());
-        transaction.put("tag", _transaction.getTag());
-        transaction.put("amount", Double.parseDouble(_transaction.getAmount()));
-        transaction.put("type", _transaction.getType());
-        transaction.saveEventually();
+        if(user!=null && account!=null && _transaction!=null){
+            ParseObject transaction = new ParseObject("Transaction");
+            transaction.put("owner", user.getEmail());
+            transaction.put("account", account.getName());
+            transaction.put("name", _transaction.getName());
+            transaction.put("tag", _transaction.getTag());
+            transaction.put("amount", Double.parseDouble(_transaction.getAmount()));
+            transaction.put("type", _transaction.getType());
+            transaction.saveEventually();
+        }
     }
 
     @Override
