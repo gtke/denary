@@ -81,5 +81,6 @@
     <string name="presets_disc">Grab rates from</string>
     <string name="title_activity_current_account">CurrentAccountActivity</string>
     <string name="title_activity_transactions">TransactionsActivity</string>
+    <string name="title_activity_current_transaction">CurrentTransactionActivity</string>
 
 </resources>

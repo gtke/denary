@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 public class Transaction {
     private String name;
     private String tag;
-    private BigDecimal amount;
+    private String amount;
     private String type;
 
     public String getName() {
@@ -19,11 +19,11 @@ public class Transaction {
         this.name = name;
     }
 
-    public BigDecimal getAmount() {
+    public String getAmount() {
         return amount;
     }
 
-    public void setAmount(BigDecimal amount) {
+    public void setAmount(String amount) {
         this.amount = amount;
     }
 
@@ -35,7 +35,7 @@ public class Transaction {
         this.type = type;
     }
 
-    public Transaction(String name, String tag, BigDecimal amount, String type){
+    public Transaction(String name, String tag, String amount, String type){
         this.name = name;
         this.tag = tag;
         this.amount = amount;

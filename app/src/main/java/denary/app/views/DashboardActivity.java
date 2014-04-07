@@ -172,6 +172,7 @@ public class DashboardActivity extends Activity
     @Override
     public void advance(String s) {
         Intent current_account = new Intent(this, CurrentAccountActivity.class);
+        current_account.putExtra("account_name", s);
         startActivity(current_account);
     }
 

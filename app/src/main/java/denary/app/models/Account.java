@@ -19,7 +19,9 @@ public class Account {
         this.balance = balance;
         this.cardNumber = cardNumber;
     }
-
+    public Account(String name){
+        this.name = name;
+    }
     public String getCardNumber() {
         return cardNumber;
     }

@@ -21,7 +21,7 @@ public class AccountModel implements AModel{
         account.put("owner", user.getEmail());
         account.put("bank_name", _account.getBank_name());
         account.put("tag", _account.getTag());
-        account.put("balance", Integer.parseInt(_account.getBalance()));
+        account.put("balance", Double.parseDouble(_account.getBalance()));
 
         account.saveEventually();
     }

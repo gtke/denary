@@ -6,12 +6,110 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="denary.app.views.AddTransactionActivity$PlaceholderFragment">
+    tools:context="denary.app.views.AddTransactionActivity$PlaceholderFragment"
+    android:background="#993333">
 
-    <TextView
-        android:id="@+id/section_label"
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:id="@+id/linearLayout">
+        <TextView
+            android:text="New Transaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#ffffff"
+            android:fontFamily="Ubuntu"
+            android:id="@+id/textView"
+            android:layout_marginBottom="20dp" />
+        <!-- Full Name Label -->
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Transaction Name:"/>
+        <EditText android:id="@+id/transaction_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:singleLine="true"
+            android:layout_marginBottom="20dip"
+            android:inputType="textPersonName"
+            android:hint="e.g. Grocery" />
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Amount:"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/transaction_amount"
+            android:hint="e.g. 10.05 (means $10.05)"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Type:"/>
+
+        <RadioGroup
+            android:id="@+id/radioType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioDeposit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Deposit"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioWithdraw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Withdraw" />
+
+        </RadioGroup>
+
+        <TextView android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="Tag:"/>
+        <EditText android:id="@+id/transaction_tags"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:singleLine="true"
+            android:layout_marginBottom="20dip"
+            android:inputType="textPersonName"
+            android:hint="e.g. primary, school, boa, wells fargo" />
+
+    </LinearLayout>
+
+    <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/create_transaction_button"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+    <TextView android:id="@+id/link_account_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="View Your Account History"
+        android:gravity="center"
+        android:textSize="20dip"
+        android:textColor="#FFCC33"
+        android:clickable="true"
+        android:onClick="startAccountListActivity"
+        android:layout_below="@+id/create_transaction_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
 <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/fragment_add_transaction.xml -->
