@@ -15,11 +15,28 @@
         android:layout_height="match_parent" >
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="New Account"
             android:id="@+id/make_account"
+            android:layout_gravity="center_horizontal|bottom" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All Transactions"
+            android:id="@+id/all_transactions_btn"
             android:layout_gravity="right|top" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="259dp"
+            android:id="@+id/listView"
+            android:layout_gravity="center"
+            android:layout_below="@+id/delete_accounts"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:clickable="true" />
     </FrameLayout>
 
     <!-- android:layout_gravity="start" tells DrawerLayout to treat
