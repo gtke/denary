@@ -36,6 +36,7 @@ public class Transaction {
     }
 
     public Transaction(String name, String tag, String amount, String type){
+        if (name == "" || amount == "") throw new IllegalArgumentException();
         this.name = name;
         this.tag = tag;
         this.amount = amount;

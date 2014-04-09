@@ -28,4 +28,4 @@
         android:name="denary.app.views.NavigationDrawerFragment" />
 
 </android.support.v4.widget.DrawerLayout>
-<!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/activity_transaction_list.xml -->
+<!-- From: file:/Users/mtownsend/AndroidStudio/Denary/app/src/main/res/layout/activity_transaction_list.xml -->

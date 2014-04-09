@@ -1,6 +1,8 @@
 package denary.app.extra;
 
 import denary.app.R;
+import denary.app.models.DatabaseModel;
+import denary.app.models.User;
 import denary.app.views.*;
 
 import android.test.ActivityInstrumentationTestCase2;
@@ -11,6 +13,8 @@ import com.parse.ParseException;
 import com.parse.ParseUser;
 
 import junit.framework.Assert;
+
+import java.util.Random;
 
 /**
  * Created by mtownsend on 4/6/14.
@@ -54,5 +58,15 @@ public class BasicTests extends ActivityInstrumentationTestCase2<SplashActivity>
         }
     }
 
-    public void regi
+    public void testRegister() {
+        Random rand = new Random();
+        String email = rand.nextInt(100000000)+"@mailinator.com";
+        String password = rand.nextInt(100000000)+"";
+        User user = new User(email, email, password);
+        DatabaseModel db = new DatabaseModel();
+        db.register(user);
+        assertTrue(db.login(user));
+        assertFalse(db.login(new User("", "", "")));
+
+    }
 }

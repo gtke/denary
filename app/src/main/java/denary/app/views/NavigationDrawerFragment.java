@@ -218,9 +218,9 @@ public class NavigationDrawerFragment extends Fragment {
                 break;
             case 2:
                 //Reports
-                intent = new Intent(this.getActivity(), ReportDisplayActivity.class);
+                intent = new Intent(this.getActivity(), ReportsMenuActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                startActivity(new Intent(this.getActivity(), ReportDisplayActivity.class));
+                startActivity(new Intent(this.getActivity(), ReportsMenuActivity.class));
                 break;
             case 3:
                 //Settings

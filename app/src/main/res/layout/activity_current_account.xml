@@ -9,14 +9,27 @@
     tools:context="denary.app.views.CurrentAccountActivity">
 
     <TextView
-        android:text="@string/hello_world"
+        android:text="@string/account_name_text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/account_name_textview"
+        android:textSize="23dp"
+        android:singleLine="false" />
+
+    <TextView
+        android:text="@string/account_balance_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/account_balance_textview"
+        android:layout_below="@+id/account_name_textview"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:singleLine="false" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Transaction"
+        android:text="@string/new_transaction_button_label"
         android:id="@+id/new_trans"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />

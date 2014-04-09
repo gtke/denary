@@ -82,5 +82,8 @@
     <string name="title_activity_current_account">CurrentAccountActivity</string>
     <string name="title_activity_transactions">TransactionsActivity</string>
     <string name="title_activity_current_transaction">CurrentTransactionActivity</string>
+    <string name="new_transaction_button_label">New Transaction</string>
+    <string name="account_name_text">Account Name:</string>
+    <string name="account_balance_test">Balance:</string>
 
 </resources>
