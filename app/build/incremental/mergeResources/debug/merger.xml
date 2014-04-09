@@ -8908,6 +8908,8 @@ Forex
                 </string>
                 <string name="setcur" >Currency
                 </string>
+                <string name="title_activity_current_transaction" >CurrentTransactionActivity
+                </string>
                 <string name="hello" >Enter amount:
                 </string>
                 <string name="curlistdis" >Available for conversation currency
@@ -9153,6 +9155,16 @@ Never
                 path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/activity_transactions.xml"
                 qualifiers=""
                 type="layout" />
+            <file
+                name="activity_current_transaction"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/activity_current_transaction.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="current_transaction"
+                path="/Users/gtkesh/Desktop/Denary/app/src/main/res/menu/current_transaction.xml"
+                qualifiers=""
+                type="menu" />
         </source>
         <source path="/Users/gtkesh/Desktop/Denary/app/build/res/rs/debug" />
         <source path="/Users/gtkesh/Desktop/Denary/app/build/res/generated/debug" />

@@ -46,9 +46,6 @@ public class DatabaseModel implements DBModel {
         return success;
     }
 
-
-
-
     @Override
     public boolean register(User user) {
         boolean success = true;

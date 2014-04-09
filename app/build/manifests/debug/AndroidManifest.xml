@@ -51,6 +51,8 @@
         </activity>
         <activity android:label="@string/title_activity_transactions" android:name="denary.app.views.TransactionsActivity">
         </activity>
+        <activity android:label="@string/title_activity_current_transaction" android:name="denary.app.views.CurrentTransactionActivity">
+        </activity>
     </application>
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->

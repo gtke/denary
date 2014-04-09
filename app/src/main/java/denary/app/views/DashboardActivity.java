@@ -105,8 +105,19 @@ public class DashboardActivity extends Activity
                 }
             }
         });
-    }
 
+        Button reportButton = (Button) findViewById(R.id.new_report_button);
+        reportButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startReportsMenuActivity();
+            }
+        });
+    }
+    public void startReportsMenuActivity(){
+        Intent i  = new Intent(this, ReportsMenuActivity.class);
+        startActivity(i);
+    }
     @Override
     public void onNavigationDrawerItemSelected(int position) {
         // update the main content by replacing fragments
@@ -172,6 +183,7 @@ public class DashboardActivity extends Activity
     @Override
     public void advance(String s) {
         Intent current_account = new Intent(this, CurrentAccountActivity.class);
+        current_account.putExtra("account_name", s);
         startActivity(current_account);
     }
 

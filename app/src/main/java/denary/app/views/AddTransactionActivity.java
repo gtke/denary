@@ -5,6 +5,7 @@ import android.app.Activity;
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -12,12 +13,39 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.parse.ParseUser;
 
 import denary.app.R;
+import denary.app.models.Account;
+import denary.app.models.Transaction;
+import denary.app.models.TransactionModel;
+import denary.app.models.User;
+import denary.app.presenters.AddTransactionPresenter;
 
 public class AddTransactionActivity extends Activity
-        implements NavigationDrawerFragment.NavigationDrawerCallbacks {
+        implements NavigationDrawerFragment.NavigationDrawerCallbacks, IView {
+
+    private static AddTransactionPresenter myPresenter;
+
+    // UI references
+    private static EditText _name;
+    private static EditText _amount;
+    private static RadioButton _type;
+    private static RadioGroup _typeGroup;
+    private static EditText _tag;
+
+    // UI references
+    private static String name;
+    private static String amount;
+    private static String tag;
+    private static String type;
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
@@ -28,11 +56,40 @@ public class AddTransactionActivity extends Activity
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
+    private ParseUser parseUser;
+    private static User user;
+    private static String accountName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_transaction);
+        myPresenter = new AddTransactionPresenter(this, new TransactionModel());
+
+        parseUser = ParseUser.getCurrentUser();
+        user = new User(parseUser.getEmail());
+
+        try{
+            if (savedInstanceState == null) {
+                Bundle extras = getIntent().getExtras();
+                if(extras == null) {
+                    accountName = "";
+                } else {
+                    accountName = extras.getString("account_name");
+                    System.out.println("YLE :" +  accountName);
+
+                }
+            } else {
+                accountName = (String) savedInstanceState.getSerializable("account_name");
+            }
+            System.out.println(accountName);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        Toast.makeText(getApplicationContext(),
+                "Account: " + accountName, Toast.LENGTH_LONG)
+                .show();
+
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -100,6 +157,18 @@ public class AddTransactionActivity extends Activity
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void advance() {
+        Intent transactions = new Intent(this, TransactionsActivity.class);
+        transactions.putExtra("account_name", accountName);
+        startActivity(transactions);
+    }
+
+    @Override
+    public void advanceAlternative() {
+
+    }
+
     /**
      * A placeholder fragment containing a simple view.
      */
@@ -128,9 +197,33 @@ public class AddTransactionActivity extends Activity
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_add_transaction, container, false);
+            final View rootView = inflater.inflate(R.layout.fragment_add_transaction, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
-            textView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+        //    textView.setText(Integer.toString(getArguments().getInt(ARG_SECTION_NUMBER)));
+            _name = (EditText)rootView.findViewById(R.id.transaction_name);
+            _amount = (EditText)rootView.findViewById(R.id.transaction_amount);
+            _tag = (EditText) rootView.findViewById(R.id.transaction_tags);
+            _typeGroup = (RadioGroup) rootView.findViewById(R.id.radioType);
+
+            Button addTransactionButton = (Button)rootView.findViewById(R.id.create_transaction_button);
+            addTransactionButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    name = _name.getText().toString();
+                    amount = _amount.getText().toString();
+                    tag = _tag.getText().toString();
+                    // get selected radio button from radioGroup
+                    int selectedId = _typeGroup.getCheckedRadioButtonId();
+
+                    // find the radiobutton by returned id
+                    _type = (RadioButton) rootView.findViewById(selectedId);
+                    type = _type.getText().toString();
+                    Account account = new Account(accountName);
+                    Transaction transaction = new Transaction(name,tag,amount,type);
+                    myPresenter.onAddTransactionUserClick(user,account,transaction);
+                    System.out.println("DONE ! ! ! !");
+                }
+            });
             return rootView;
         }
 
@@ -141,5 +234,7 @@ public class AddTransactionActivity extends Activity
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
     }
+
+
 
 }

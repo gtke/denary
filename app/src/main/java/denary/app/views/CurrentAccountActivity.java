@@ -1,18 +1,49 @@
 package denary.app.views;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import denary.app.R;
+import denary.app.models.TransactionModel;
+import denary.app.presenters.CurrentAccountPresenter;
 
-public class CurrentAccountActivity extends Activity {
-
+public class CurrentAccountActivity extends Activity implements IDashboardView {
+    private CurrentAccountPresenter myPresenter;
+    private String accountName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_current_account);
+        myPresenter = new CurrentAccountPresenter(this, new TransactionModel());
+
+        try{
+            if (savedInstanceState == null) {
+                Bundle extras = getIntent().getExtras();
+                if(extras == null) {
+                    accountName = "";
+                } else {
+                    accountName = extras.getString("account_name");
+                }
+            } else {
+                accountName = (String) savedInstanceState.getSerializable("account_name");
+            }
+            System.out.println(accountName);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+
+        Button addTransactionButton = (Button) findViewById(R.id.new_trans);
+        addTransactionButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myPresenter.advance(accountName);
+            }
+        });
     }
 
 
@@ -36,4 +67,20 @@ public class CurrentAccountActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void advance() {
+
+    }
+
+    @Override
+    public void advance(String s) {
+        Intent newTransaction = new Intent(this, AddTransactionActivity.class);
+        newTransaction.putExtra("account_name", accountName);
+        startActivity(newTransaction);
+    }
+
+    @Override
+    public void advanceAlternative() {
+
+    }
 }

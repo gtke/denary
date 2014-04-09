@@ -92,6 +92,10 @@
             android:name="denary.app.views.TransactionsActivity"
             android:label="@string/title_activity_transactions" >
         </activity>
+        <activity
+            android:name="denary.app.views.CurrentTransactionActivity"
+            android:label="@string/title_activity_current_transaction" >
+        </activity>
     </application>
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
