@@ -2,6 +2,8 @@ package denary.app.Tests;
 
 import android.annotation.TargetApi;
 import android.os.Build;
+import android.os.Handler;
+import android.os.Looper;
 import android.test.ActivityInstrumentationTestCase2;
 
 import com.parse.Parse;
@@ -16,6 +18,10 @@ import junit.framework.Assert;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.test.ActivityInstrumentationTestCase2;
+import android.test.UiThreadTest;
+import android.widget.AutoCompleteTextView;
+import android.widget.Button;
+import android.widget.EditText;
 
 import com.parse.Parse;
 import com.parse.ParseException;
@@ -26,6 +32,7 @@ import junit.framework.Assert;
 import java.util.List;
 import java.util.Random;
 
+import denary.app.R;
 import denary.app.models.Account;
 import denary.app.models.AccountModel;
 import denary.app.models.Transaction;
@@ -161,6 +168,7 @@ public class BasicTests extends ActivityInstrumentationTestCase2<LoginActivity> 
             Assert.assertTrue(e != null);
         }
     }
+
 
 
 }
