@@ -234,7 +234,4 @@ public class AddTransactionActivity extends Activity
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
     }
-
-
-
 }
