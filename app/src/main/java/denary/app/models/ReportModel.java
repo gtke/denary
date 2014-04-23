@@ -34,35 +34,38 @@ public class ReportModel implements RModel{
         HashMap<String, Double> map = new HashMap<String, Double>();
 
         for(ParseObject o : results){
-            String key = o.get("tag").toString();
-            Double value = Double.parseDouble(o.get("amount").toString());
-            if(map.get(key)==null){
-                if(value < 0.0){
-                    map.put(key,value);
-                }
-            }else{
-                if(value < 0.0){
-                    Double old_value = map.get(key);
-                    map.put(key, old_value + value);
+            Object temp = o.get("tag");
+            if(temp!=null){
+                String key = temp.toString();
+                Double value = Double.parseDouble(o.get("amount").toString());
+                if(map.get(key)==null){
+                    if(value < 0.0){
+                        map.put(key,value);
+                    }
+                }else{
+                    if(value < 0.0){
+                        Double old_value = map.get(key);
+                        map.put(key, old_value + value);
+                    }
                 }
             }
         }
 
         DateFormat displayFormat = new SimpleDateFormat("dd/MM/yyyy");
 
-        report.concat("Spending Category Report for " + user.getName()+"\n");
-        report.concat(displayFormat.format(start) + " - " + displayFormat.format(end) + "\n");
+        report = report.concat("Spending Category Report: "+"\n" +"\n");
+        report = report.concat(displayFormat.format(start) + " - " + displayFormat.format(end) + "\n");
         double total = 0;
         for (Map.Entry<String, Double> entry : map.entrySet()) {
             String key = entry.getKey();
             Double value = entry.getValue();
-            report.concat("\t" + key + " : " + Math.abs(value) + "\n");
+            report = report.concat("\t" + key + " : " + Math.abs(value) + "\n");
             total += Math.abs(value);
 
         }
-        report.concat("\n");
-        report.concat("\t" + "Total: " + total);
-        report.concat("\n");
+        report = report.concat("\n");
+        report = report.concat("\t" + "Total: " + total);
+        report = report.concat("\n");
         return report;
     }
 
@@ -82,39 +85,50 @@ public class ReportModel implements RModel{
         }
 
         HashMap<String, Double> map = new HashMap<String, Double>();
+        System.out.println("RESULTS: " + results.toString());
+        if(results!=null){
+            for(ParseObject o : results){
+                Object temp = o.get("tag");
+                System.out.println("TEMP " + temp);
+                if(temp!=null){
+                    String key = temp.toString();
+                    Double value = Double.parseDouble(o.get("amount").toString());
+                    if(map.get(key)==null){
+                        if(value > 0.0){
+                            map.put(key,value);
+                        }
+                    }else{
+                        if(value > 0.0){
+                            Double old_value = map.get(key);
+                            map.put(key, old_value + value);
+                        }
+                    }
+                }
 
-        for(ParseObject o : results){
-            String key = o.get("tag").toString();
-            Double value = Double.parseDouble(o.get("amount").toString());
-            if(map.get(key)==null){
-                if(value > 0.0){
-                    map.put(key,value);
-                }
-            }else{
-                if(value > 0.0){
-                    Double old_value = map.get(key);
-                    map.put(key, old_value + value);
-                }
             }
         }
-
+        System.out.println("MAPSIZE: " + map.size());
         DateFormat displayFormat = new SimpleDateFormat("dd/MM/yyyy");
 
 
-        report.concat("\n"+"Income Report for " + user.getName() + "\n");
-        report.concat(displayFormat.format(start) + " - " + displayFormat.format(end) + "\n");
-        double total = 0;
-        for (Map.Entry<String, Double> entry : map.entrySet()) {
-            String key = entry.getKey();
-            Double value = entry.getValue();
-            report.concat("\t" + key+ " : " + Math.abs(value)+"\n");
-            total += Math.abs(value);
+        report = report.concat("\n" + "Income Category Report: "+"\n" +"\n");
+        report = report.concat(displayFormat.format(start) + " - " + displayFormat.format(end) + "\n");
+        double total = 0.0;
+        if(results!=null){
+            for (Map.Entry<String, Double> entry : map.entrySet()) {
+                String key = entry.getKey();
+                Double value = entry.getValue();
+                System.out.println("KEY-VALUE: " + key + "-"+value);
+                report = report.concat("\t" + key+ " : " + Math.abs(value)+"\n");
+                total += Math.abs(value);
 
+            }
         }
-        report.concat("\n");
-        report.concat("\t"+ "Total: " + total);
-        report.concat("\n");
+        report = report.concat("\n");
+        report = report.concat("\t"+ "Total: " + total);
+        report = report.concat("\n");
 
+        System.out.println("INCOME REPORT: " + report);
         return report;
     }
 

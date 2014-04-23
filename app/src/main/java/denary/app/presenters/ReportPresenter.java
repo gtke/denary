@@ -1,5 +1,7 @@
 package denary.app.presenters;
 
+import java.util.Date;
+
 import denary.app.models.DatabaseModel;
 import denary.app.models.ReportModel;
 import denary.app.models.User;
@@ -18,8 +20,11 @@ public class ReportPresenter {
         myModel = model;
     }
 
-    public void onGenereteReportUserClick(){
-        //myModel.generateReport(user);
-        myView.advance();
+    public String onGenerateReportUserClick(User user, Date start, Date end){
+        String report = "";
+        report += myModel.generateIncomeReport(user, start, end);
+        report += "\n";
+        report += myModel.generateSpendingReport(user, start, end);
+        return report;
     }
 }
