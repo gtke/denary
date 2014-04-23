@@ -7,4 +7,5 @@ public interface DBModel {
     boolean login(final User user);
     boolean register(final User user);
     String getPasswordHint(final String email);
+    void resetPassword(final String email);
 }

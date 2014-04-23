@@ -29,4 +29,8 @@ public class LoginPresenter {
     public String onPasswordHintUserClick(String email){
         return myModel.getPasswordHint(email);
     }
+
+    public void onPasswordResetUserClick(String email){
+        myModel.resetPassword(email);
+    }
 }

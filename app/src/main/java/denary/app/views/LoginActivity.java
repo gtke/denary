@@ -115,6 +115,20 @@ public class LoginActivity extends Activity implements IView{
             }
         });
 
+        Button resetButton = (Button) findViewById(R.id.passresetbtn);
+        resetButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String email = mEmailView.getText().toString();
+                myPresenter.onPasswordResetUserClick(email);
+                Context context = getApplicationContext();
+                CharSequence text = "Check your email for password reset!";
+                int duration = Toast.LENGTH_SHORT;
+                Toast toast = Toast.makeText(context, text, duration);
+                toast.show();
+            }
+        });
+
 
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);

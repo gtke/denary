@@ -101,4 +101,13 @@ public class DatabaseModel implements DBModel {
         }
         return hint;
     }
+
+    @Override
+    public void resetPassword(String email) {
+        try {
+            ParseUser.requestPasswordReset(email);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+    }
 }
