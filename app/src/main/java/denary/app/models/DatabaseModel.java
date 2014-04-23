@@ -87,10 +87,6 @@ public class DatabaseModel implements DBModel {
     @Override
     public String getPasswordHint(String email) {
         String hint = null;
-        System.out.println("USERMAIL: " + email);
-        System.out.println("USERMAIL: " + email);
-        System.out.println("USERMAIL: " + email);
-        System.out.println("USERMAIL: " + email);
 
         ParseQuery<ParseUser> query = ParseUser.getQuery();
         query.whereEqualTo("username", email);

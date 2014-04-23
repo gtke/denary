@@ -7,6 +7,8 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Intent;
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -25,28 +27,30 @@ import com.parse.SaveCallback;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 import denary.app.R;
 import denary.app.models.ReportModel;
 import denary.app.models.User;
 import denary.app.presenters.ReportPresenter;
 
-public class ReportsMenuActivity extends Activity implements  IView {
+public class ReportsMenuActivity extends Activity implements  IView,TextToSpeech.OnInitListener {
 
 
 
     private static ReportPresenter myPresenter;
 
-    private CharSequence mTitle;
     private static Button generate_report_button;
     private TextView reportView;
     private String report = "";
+    private TextToSpeech tts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reports_menu);
         myPresenter = new ReportPresenter(this, new ReportModel());
+        tts = new TextToSpeech(this, this);
         reportView = (TextView) findViewById(R.id.reportview);
         generate_report_button = (Button) findViewById(R.id.generate_report_button);
         generate_report_button.setOnClickListener(new View.OnClickListener() {
@@ -87,6 +91,7 @@ public class ReportsMenuActivity extends Activity implements  IView {
                 report = myPresenter.onGenerateReportUserClick(user, startDate, endDate);
                 System.out.println("REPORT for  " + user.getEmail() + "  :" + report);
                 reportView.setText(report);
+                speakOut(report);
             }
          });
 
@@ -104,4 +109,39 @@ public class ReportsMenuActivity extends Activity implements  IView {
     }
 
 
+    @Override
+    public void onDestroy() {
+        // Don't forget to shutdown tts!
+        if (tts != null) {
+            tts.stop();
+            tts.shutdown();
+        }
+        super.onDestroy();
+    }
+
+    @Override
+    public void onInit(int status) {
+
+        if (status == TextToSpeech.SUCCESS) {
+
+            int result = tts.setLanguage(Locale.US);
+
+            if (result == TextToSpeech.LANG_MISSING_DATA
+                    || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                Log.e("TTS", "This Language is not supported");
+            } else {
+                generate_report_button.setEnabled(true);
+                //speakOut();
+            }
+
+        } else {
+            Log.e("TTS", "Initilization Failed!");
+        }
+
+    }
+
+    private void speakOut(String text) {
+        tts.speak(text, TextToSpeech.QUEUE_FLUSH, null);
+    }
 }
+

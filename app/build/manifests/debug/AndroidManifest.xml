@@ -7,8 +7,6 @@
         </activity>
         <activity android:label="@string/title_activity_login" android:name="denary.app.views.LoginActivity" android:windowSoftInputMode="adjustResize|stateVisible">
         </activity>
-        <activity android:label="@string/title_activity_report_display" android:name="denary.app.views.ReportDisplayActivity">
-        </activity>
         <activity android:label="@string/title_activity_settings" android:name="denary.app.views.SettingsActivity">
         </activity>
         <activity android:label="@string/title_activity_reports_menu" android:name="denary.app.views.ReportsMenuActivity">

@@ -17,10 +17,6 @@
             android:windowSoftInputMode="adjustResize|stateVisible" >
         </activity>
         <activity
-            android:name="denary.app.views.ReportDisplayActivity"
-            android:label="@string/title_activity_report_display" >
-        </activity>
-        <activity
             android:name="denary.app.views.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
