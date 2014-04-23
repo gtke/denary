@@ -21,6 +21,7 @@ import java.util.logging.SimpleFormatter;
 import denary.app.R;
 import denary.app.models.Account;
 import denary.app.models.AccountModel;
+import denary.app.models.ParseConfig;
 import denary.app.models.User;
 import denary.app.presenters.AddAccountPresenter;
 
@@ -48,6 +49,12 @@ public class AddAccountActivity extends Activity implements IView {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_account);
         myPresenter = new AddAccountPresenter(this, new AccountModel());
+
+        try {
+            ParseConfig pf = new ParseConfig(this);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         _accountName = (EditText) findViewById(R.id.account_name);
         _bankName = (EditText) findViewById(R.id.bank_name);

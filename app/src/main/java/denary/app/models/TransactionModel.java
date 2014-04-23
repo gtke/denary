@@ -19,9 +19,30 @@ public class TransactionModel implements TModel{
             transaction.put("account", account.getName());
             transaction.put("name", _transaction.getName());
             transaction.put("tag", _transaction.getTag());
-            transaction.put("amount", Double.parseDouble(_transaction.getAmount()));
+            Double temp_amount = Double.parseDouble(_transaction.getAmount());
+            if(_transaction.getType().equals("Withdraw")){
+                temp_amount = -(temp_amount);
+            }
+            transaction.put("amount", temp_amount);
             transaction.put("type", _transaction.getType());
             transaction.saveEventually();
+
+            ParseQuery<ParseObject> query = ParseQuery.getQuery("Account");
+            ParseObject parse_account = null;
+            try {
+                parse_account = query.whereEqualTo("name", account.getName()).getFirst();
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+            Object balance =  parse_account.get("balance");
+            Double curr_balance = Double.parseDouble(balance.toString());
+
+            parse_account.put("balance", curr_balance + temp_amount);
+            try {
+                parse_account.save();
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
         }
     }
 

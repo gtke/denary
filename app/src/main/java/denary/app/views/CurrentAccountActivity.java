@@ -7,6 +7,11 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import com.parse.ParseException;
+import com.parse.ParseObject;
+import com.parse.ParseQuery;
 
 import denary.app.R;
 import denary.app.models.TransactionModel;
@@ -44,6 +49,42 @@ public class CurrentAccountActivity extends Activity implements IDashboardView {
                 myPresenter.advance(accountName);
             }
         });
+
+
+        TextView name = (TextView) findViewById(R.id.account_name_textview);
+        name.setText("Account name: " + accountName);
+
+        TextView accountBalance = (TextView) findViewById(R.id.account_balance_textview);
+        try {
+            accountBalance.setText("Balance: " + getAccountBalance());
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+
+
+
+
+    }
+
+
+
+    private String getAccountBalance() throws ParseException {
+        ParseQuery<ParseObject> query = ParseQuery.getQuery("Account");
+        query.setCachePolicy(ParseQuery.CachePolicy.NETWORK_ELSE_CACHE);
+        query.whereEqualTo("name", accountName);
+        ParseObject balance = null;
+        try {
+            balance = query.getFirst();
+        }catch (ParseException pe){
+            pe.printStackTrace();
+        }
+        Object temp = "$0.00";
+        if (balance != null) {
+            temp = balance.get("balance");
+        }
+        //double b = 0.0;
+        //b = Double.parseDouble(temp.toString());
+        return temp.toString();
     }
 
 

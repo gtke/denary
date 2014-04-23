@@ -1175,6 +1175,8 @@
     <string name="abouttap">Click for detail!</string>
     <string name="abouttext">Flags icon:\n- http://famfamfam.com\n\nPatterns:\n- http://noqta.it\n- http://dinpattern.com\n- http://squidfingers.com\n- http://pattrnapp.com\n\nIcons:\n- http://adamwhitcroft.com/batch\n\nHow to:\n- http://stackoverflow.com\n- http://habrahabr.ru\n\nThx:\n- jadis100, Ant-ON, ramallah, spardaev.\n\nWTFPL:\nDo What The Fuck You Want To Public License.</string>
     <string name="aboutvers">nanoConverter 0.8.98</string>
+    <string name="account_balance_test">Balance:</string>
+    <string name="account_name_text">Account Name:</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings_activity_login.xml -->
@@ -1222,6 +1224,7 @@
     <string name="loadfrombank">Preset</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="new_transaction_button_label">New Transaction</string>
     <string name="other">Other</string>
     <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/values/strings_activity_settings.xml -->
     <eat-comment />

@@ -71,7 +71,6 @@ public class RegisterActivity extends Activity implements IView {
                     Toast toast = Toast.makeText(getApplicationContext(), text, duration);
                     toast.show();
                     User user = new User(name,email,password);
-                    System.out.println("USEEER!" + name+ " " + email + " " + password);
                     myPresenter.onRegisterUserClick(user);
                 }else{
                     text = "Passwords do not match";

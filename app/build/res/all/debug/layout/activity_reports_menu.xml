@@ -25,7 +25,8 @@
         android:layout_width="@dimen/navigation_drawer_width"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:name="denary.app.views.NavigationDrawerFragment" />
+        android:name="denary.app.views.NavigationDrawerFragment"
+        tools:layout="@layout/fragment_navigation_drawer" />
 
 </android.support.v4.widget.DrawerLayout>
 <!-- From: file:/Users/gtkesh/Desktop/Denary/app/src/main/res/layout/activity_reports_menu.xml -->

@@ -2,6 +2,8 @@ package denary.app.Tests;
 
 import android.annotation.TargetApi;
 import android.os.Build;
+import android.os.Handler;
+import android.os.Looper;
 import android.test.ActivityInstrumentationTestCase2;
 
 import com.parse.Parse;
@@ -16,6 +18,10 @@ import junit.framework.Assert;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.test.ActivityInstrumentationTestCase2;
+import android.test.UiThreadTest;
+import android.widget.AutoCompleteTextView;
+import android.widget.Button;
+import android.widget.EditText;
 
 import com.parse.Parse;
 import com.parse.ParseException;
@@ -24,7 +30,9 @@ import com.parse.ParseUser;
 import junit.framework.Assert;
 
 import java.util.List;
+import java.util.Random;
 
+import denary.app.R;
 import denary.app.models.Account;
 import denary.app.models.AccountModel;
 import denary.app.models.Transaction;
@@ -53,12 +61,14 @@ public class BasicTests extends ActivityInstrumentationTestCase2<LoginActivity> 
         db = new DatabaseModel();
     }
 
+    // Stephanie Su
     public void testValidLogin() throws ParseException {
         User user = new User("admin", "pass123");
         boolean test = db.login(user);
         Assert.assertTrue(test);
     }
 
+    // Stephanie Su
     public void testInvalidLogin() {
         User user = new User("zzzzzz", "zzzzzz");
         boolean test = db.login(user);
@@ -66,18 +76,22 @@ public class BasicTests extends ActivityInstrumentationTestCase2<LoginActivity> 
     }
 
 
+    // Nathan Lowell
     public void testValidRegister() {
-        User user = new User("wayne rooney", "wrooney1@gmail.com","pass123");
+        Random rand = new Random();
+        User user = new User("wayne rooney", (rand.nextInt(100000)+"@mailinator.com"),"pass1234");
         boolean test = db.register(user);
         Assert.assertTrue(test);
     }
 
+    // Nathan Lowell
     public void testInvalidRegister(){
         User user = new User("wayne rooney", "wrooney@gmail.com", "pass123");
         boolean test = db.register(user);
         Assert.assertFalse(test);
     }
 
+    // Giorgi Tkeshelashvili
     public void testValidCreateAccount() throws ParseException {
         User user = new User("wayne rooney", "wrooney@gmail.com", "pass123");
         Account account = new Account("Primary", "Bank of America", "school", "200.00", "1111000022220000");
@@ -94,6 +108,7 @@ public class BasicTests extends ActivityInstrumentationTestCase2<LoginActivity> 
 
     }
 
+    // Giorgi Tkeshelashvili
     public void testInvalidCreateAccount() throws ParseException {
         User user = null;
         Account account = new Account("Secondary", "Bank of America", "school", "1000.00", "1111000022220000");
@@ -109,9 +124,11 @@ public class BasicTests extends ActivityInstrumentationTestCase2<LoginActivity> 
 
     }
 
+    // Matt Townsend
     public void testValidMakeTransaction() throws ParseException {
         User user = new User("wayne rooney", "wrooney@gmail.com", "pass123");
         Account account = new Account("Primary", "Bank of America", "school", "1000.00", "1111000022220000");
+
         Transaction transaction = new Transaction("got iphone", "personal", "800.00", "withdraw");
 
         TransactionModel tm = new TransactionModel();
@@ -132,7 +149,26 @@ public class BasicTests extends ActivityInstrumentationTestCase2<LoginActivity> 
 
     }
 
+    // Matt Townsend
     public void testInvalidMakeTransaction() {
+        User user = new User("wayne rooney", "wrooney@gmail.com", "pass123");
+        Account account = new Account("Primary", "Bank of America", "school", "1000.00", "1111000022220000");
 
+        // no name
+        try {
+            Transaction transaction = new Transaction("", "personal", "800.00", "withdraw");
+        } catch (IllegalArgumentException e) {
+            Assert.assertTrue(e != null);
+        }
+
+        // no amount
+        try {
+            Transaction transaction = new Transaction("test", "personal", "", "withdraw");
+        } catch (IllegalArgumentException e) {
+            Assert.assertTrue(e != null);
+        }
     }
+
+
+
 }
