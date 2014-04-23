@@ -7,6 +7,7 @@ public class User {
     private String name;
     private String email;
     private String password;
+    private String hint;
 
 
     public User(String name, String email, String password) {
@@ -14,6 +15,21 @@ public class User {
         this.email = email;
         this.password = password;
     }
+    public User(String name, String email, String password, String hint) {
+        this.name = name;
+        this.email = email;
+        this.password = password;
+        this.hint = hint;
+    }
+
+    public String getHint() {
+        return hint;
+    }
+
+    public void setHint(String hint) {
+        this.hint = hint;
+    }
+
     public User(String email, String password) {
         this.email = email;
         this.password = password;

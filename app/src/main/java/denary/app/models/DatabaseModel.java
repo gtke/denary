@@ -6,6 +6,7 @@ import com.parse.LogInCallback;
 import com.parse.Parse;
 import com.parse.ParseException;
 import com.parse.ParseObject;
+import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SignUpCallback;
 //import com.parse.ParseException;
@@ -55,6 +56,7 @@ public class DatabaseModel implements DBModel {
         parseUser.setEmail(user.getEmail());
         parseUser.setPassword(user.getPassword());
         parseUser.put("name",user.getName());
+        parseUser.put("hint", user.getHint());
 
         try {
             parseUser.signUp();
@@ -80,5 +82,27 @@ public class DatabaseModel implements DBModel {
             }
         }
         return success;
+    }
+
+    @Override
+    public String getPasswordHint(String email) {
+        String hint = null;
+        System.out.println("USERMAIL: " + email);
+        System.out.println("USERMAIL: " + email);
+        System.out.println("USERMAIL: " + email);
+        System.out.println("USERMAIL: " + email);
+
+        ParseQuery<ParseUser> query = ParseUser.getQuery();
+        query.whereEqualTo("username", email);
+        ParseObject user = null;
+        try {
+            user =  query.find().get(0);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        if(user!=null){
+            hint = user.get("hint").toString();
+        }
+        return hint;
     }
 }

@@ -6,4 +6,5 @@ package denary.app.models;
 public interface DBModel {
     boolean login(final User user);
     boolean register(final User user);
+    String getPasswordHint(final String email);
 }

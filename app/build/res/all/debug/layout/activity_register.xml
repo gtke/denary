@@ -92,6 +92,19 @@
                 android:layout_marginTop="5dip"
                 android:inputType="textPassword"
                 android:hint="Confirm Password" />
+            <TextView android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#372c24"
+                android:text="Password Hint"/>
+
+            <EditText android:id="@+id/passhint"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:singleLine="true"
+                android:layout_marginTop="5dip"
+                android:inputType="textPassword"
+                android:hint="Password Hint" />
             <!-- Register Button -->
             <Button android:id="@+id/btnRegister"
                 android:layout_width="fill_parent"

@@ -27,12 +27,14 @@ public class RegisterActivity extends Activity implements IView {
     private EditText _email;
     private EditText _password;
     private EditText _confirm_password;
+    private EditText _passhint;
 
     //
     private String name;
     private String email;
     private String password;
     private String confirm_password;
+    private String passhint;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,6 +53,7 @@ public class RegisterActivity extends Activity implements IView {
         _email = (EditText) findViewById(R.id.reg_email);
         _password = (EditText) findViewById(R.id.reg_password);
         _confirm_password = (EditText) findViewById(R.id.conf_reg_password);
+        _passhint = (EditText) findViewById(R.id.passhint);
 
 
 
@@ -62,6 +65,7 @@ public class RegisterActivity extends Activity implements IView {
                 email = _email.getText().toString();
                 password = _password.getText().toString();
                 confirm_password = _confirm_password.getText().toString();
+                passhint = _passhint.getText().toString();
 
                 int duration = Toast.LENGTH_SHORT;
                 CharSequence text;
@@ -70,7 +74,7 @@ public class RegisterActivity extends Activity implements IView {
                     text = "Successfully Registered!";
                     Toast toast = Toast.makeText(getApplicationContext(), text, duration);
                     toast.show();
-                    User user = new User(name,email,password);
+                    User user = new User(name,email,password, passhint);
                     myPresenter.onRegisterUserClick(user);
                 }else{
                     text = "Passwords do not match";

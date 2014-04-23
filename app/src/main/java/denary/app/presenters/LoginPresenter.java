@@ -25,4 +25,8 @@ public class LoginPresenter {
         }
         return false;
     }
+
+    public String onPasswordHintUserClick(String email){
+        return myModel.getPasswordHint(email);
+    }
 }

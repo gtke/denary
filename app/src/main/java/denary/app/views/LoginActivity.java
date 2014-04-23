@@ -92,11 +92,26 @@ public class LoginActivity extends Activity implements IView{
                 attemptLogin();
             }
         });
+
         Button registerButton = (Button)findViewById(R.id.email_register_button);
         registerButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 advanceAlternative();
+            }
+        });
+
+        Button hintButton = (Button) findViewById(R.id.hintbtn);
+        hintButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String email = mEmailView.getText().toString();
+                String hint = myPresenter.onPasswordHintUserClick(email);
+
+                Context context = getApplicationContext();
+                int duration = Toast.LENGTH_SHORT;
+                Toast toast = Toast.makeText(context, hint, duration);
+                toast.show();
             }
         });
 
