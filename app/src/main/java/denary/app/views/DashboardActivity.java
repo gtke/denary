@@ -26,6 +26,7 @@ import com.parse.ParseQueryAdapter;
 import com.parse.ParseUser;
 
 import denary.app.R;
+import denary.app.extra.NanoConverter;
 import denary.app.models.Transaction;
 import denary.app.presenters.DashboardPresenter;
 
@@ -111,6 +112,14 @@ public class DashboardActivity extends Activity
             @Override
             public void onClick(View v) {
                 startReportsMenuActivity();
+            }
+        });
+
+        Button converter = (Button) findViewById(R.id.converter);
+        converter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startConverter();
             }
         });
     }
@@ -233,6 +242,10 @@ public class DashboardActivity extends Activity
             ((DashboardActivity) activity).onSectionAttached(
                     getArguments().getInt(ARG_SECTION_NUMBER));
         }
+    }
+    private void startConverter(){
+        Intent i = new Intent(this, NanoConverter.class);
+        startActivity(i);
     }
 
 }

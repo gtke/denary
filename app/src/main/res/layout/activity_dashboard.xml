@@ -58,6 +58,14 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true" />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Currency Converter"
+                android:id="@+id/converter"
+                android:layout_below="@+id/all_transactions_btn"
+                android:layout_centerHorizontal="true" />
+
 
         </RelativeLayout>
 
