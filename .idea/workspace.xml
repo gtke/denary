@@ -24,12 +24,9 @@
   <component name="ChangeListManager">
     <list default="true" id="985f1318-54b2-44e9-9588-0a0698c9bd06" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/source/r/debug/denary/app/R.java" afterPath="$PROJECT_DIR$/app/build/source/r/debug/denary/app/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_reports_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_reports_menu.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Denary.iws" />
@@ -94,54 +91,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java">
+      <file leaf-file-name="ReportsMenuActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="124" column="75" selection-start="4145" selection-end="4145" vertical-scroll-proportion="1.1811024" vertical-offset="780" max-vertical-offset="2940">
+            <state line="214" column="56" selection-start="7372" selection-end="7372" vertical-scroll-proportion="0.6930946" vertical-offset="2939" max-vertical-offset="3750">
               <folding>
-                <element signature="e#2693#2839#0" expanded="true" />
-                <element signature="e#2828#2829#0" expanded="true" />
-                <element signature="e#2967#3116#0" expanded="true" />
-                <element signature="e#3105#3106#0" expanded="true" />
-                <element signature="e#3223#3684#0" expanded="true" />
-                <element signature="e#3673#3674#0" expanded="true" />
-                <element signature="e#3798#4321#0" expanded="true" />
-                <element signature="e#4310#4311#0" expanded="true" />
-                <element signature="e#5233#5275#0" expanded="true" />
-                <element signature="e#5471#5511#0" expanded="true" />
-                <element signature="e#5652#5691#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2099#3902#0" expanded="true" />
+                <element signature="e#3890#3891#0" expanded="true" />
+                <element signature="e#4022#4164#0" expanded="true" />
+                <element signature="e#4153#4154#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DBModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <file leaf-file-name="activity_reports_menu.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_reports_menu.xml">
           <provider editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="3169" selection-end="3169" vertical-scroll-proportion="0.0" vertical-offset="869" max-vertical-offset="1665">
+            <state line="55" column="47" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
           <provider selected="true" editor-type-id="android-designer">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TransactionModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/TransactionModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="40" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1200">
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -859,17 +832,17 @@
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/AddTransactionActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/TransactionModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/ReportPresenter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_reports_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/ReportModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/User.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/RegisterActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_reports_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java" />
       </list>
     </option>
   </component>
@@ -906,7 +879,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1080,108 +1053,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="presenters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Denary" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -1203,7 +1074,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1326,6 +1197,27 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -1348,33 +1240,25 @@
       </MavenSettings>
       <method />
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1402,19 +1286,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1558,16 +1429,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27181688" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23945409" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22332506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39910978" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1575,7 +1444,7 @@
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24565756" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49255583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4255583" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1589,6 +1458,8 @@
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27181688" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22332506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1662531" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1649,16 +1520,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values-large/refs.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/extra/NanoConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="54" selection-start="4271" selection-end="4271" vertical-scroll-proportion="0.0" vertical-offset="1740" max-vertical-offset="20865">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml">
@@ -1699,9 +1561,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/transactions.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="500" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_report_display.xml">
@@ -1750,9 +1610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/TModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="17" selection-start="170" selection-end="170" vertical-scroll-proportion="0.18388791" vertical-offset="0" max-vertical-offset="571">
-          <folding />
-        </state>
+        <state line="10" column="17" selection-start="170" selection-end="170" vertical-scroll-proportion="0.18388791" vertical-offset="0" max-vertical-offset="571" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/CurrentTransactionActivity.java">
@@ -1772,18 +1630,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/ParseConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/add_transaction.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_account.xml">
@@ -1810,8 +1659,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="0" selection-start="2823" selection-end="2823" vertical-scroll-proportion="0.0" vertical-offset="709" max-vertical-offset="1755">
           <folding>
-            <element signature="e#2131#2979#0" expanded="true" />
-            <element signature="e#2968#2969#0" expanded="true" />
+            <element signature="e#2131#2979#0" expanded="false" />
+            <element signature="e#2968#2969#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1820,10 +1669,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="114" column="0" selection-start="4594" selection-end="4594" vertical-scroll-proportion="3.1376147" vertical-offset="0" max-vertical-offset="1800">
           <folding>
-            <element signature="e#231#266#0" expanded="true" />
-            <element signature="e#292#327#0" expanded="true" />
-            <element signature="e#351#384#0" expanded="true" />
-            <element signature="e#411#444#0" expanded="true" />
+            <element signature="e#231#266#0" expanded="false" />
+            <element signature="e#292#327#0" expanded="false" />
+            <element signature="e#351#384#0" expanded="false" />
+            <element signature="e#411#444#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1843,16 +1692,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/AddTransactionPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
+        <state line="23" column="0" selection-start="630" selection-end="630" vertical-scroll-proportion="0.46153846" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/AccountModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="252" selection-end="252" vertical-scroll-proportion="0.17948718" vertical-offset="0" max-vertical-offset="915">
-          <folding />
-        </state>
+        <state line="13" column="13" selection-start="252" selection-end="252" vertical-scroll-proportion="0.17948718" vertical-offset="0" max-vertical-offset="915" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/CurrentAccountActivity.java">
@@ -1867,16 +1712,6 @@
         <state line="57" column="0" selection-start="1564" selection-end="1564" vertical-scroll-proportion="-1.3210162" vertical-offset="1082" max-vertical-offset="1515">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_reports_menu.xml">
-      <provider editor-type-id="text-editor">
-        <state line="54" column="49" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/ReportPresenter.java">
@@ -1905,54 +1740,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="577" selection-end="577" vertical-scroll-proportion="0.61538464" vertical-offset="0" max-vertical-offset="945">
-          <folding>
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="24" column="29" selection-start="577" selection-end="577" vertical-scroll-proportion="0.61538464" vertical-offset="0" max-vertical-offset="945" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/DashboardPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.18453427" vertical-offset="0" max-vertical-offset="569">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/TransactionModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="40" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="1" selection-start="4506" selection-end="4506" vertical-scroll-proportion="2.6368515" vertical-offset="221" max-vertical-offset="1815">
-          <folding>
-            <element signature="e#1715#3518#0" expanded="true" />
-            <element signature="e#3506#3507#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="11" column="13" selection-start="261" selection-end="261" vertical-scroll-proportion="0.18453427" vertical-offset="0" max-vertical-offset="569" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DatabaseModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="5" selection-start="3564" selection-end="3564" vertical-scroll-proportion="0.8717949" vertical-offset="960" max-vertical-offset="1590">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="3169" selection-end="3169" vertical-scroll-proportion="0.0" vertical-offset="869" max-vertical-offset="1665">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
+        <state line="111" column="5" selection-start="3564" selection-end="3564" vertical-scroll-proportion="0.8717949" vertical-offset="960" max-vertical-offset="1590" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/RegisterActivity.java">
@@ -1966,41 +1764,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="904" selection-end="904" vertical-scroll-proportion="0.82051283" vertical-offset="0" max-vertical-offset="2115">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2894#2910#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2894#2910#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/presenters/LoginPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="37" selection-start="776" selection-end="776" vertical-scroll-proportion="0.7948718" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="33" column="37" selection-start="776" selection-end="776" vertical-scroll-proportion="0.7948718" vertical-offset="0" max-vertical-offset="600" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="124" column="75" selection-start="4145" selection-end="4145" vertical-scroll-proportion="1.1811024" vertical-offset="780" max-vertical-offset="2940">
+        <state line="124" column="75" selection-start="4145" selection-end="4145" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="2940">
           <folding>
-            <element signature="e#2693#2839#0" expanded="true" />
-            <element signature="e#2828#2829#0" expanded="true" />
-            <element signature="e#2967#3116#0" expanded="true" />
-            <element signature="e#3105#3106#0" expanded="true" />
-            <element signature="e#3223#3684#0" expanded="true" />
-            <element signature="e#3673#3674#0" expanded="true" />
-            <element signature="e#3798#4321#0" expanded="true" />
-            <element signature="e#4310#4311#0" expanded="true" />
-            <element signature="e#5233#5275#0" expanded="true" />
-            <element signature="e#5471#5511#0" expanded="true" />
-            <element signature="e#5652#5691#0" expanded="true" />
+            <element signature="e#2693#2839#0" expanded="false" />
+            <element signature="e#2828#2829#0" expanded="false" />
+            <element signature="e#2967#3116#0" expanded="false" />
+            <element signature="e#3105#3106#0" expanded="false" />
+            <element signature="e#3223#3684#0" expanded="false" />
+            <element signature="e#3673#3674#0" expanded="false" />
+            <element signature="e#3798#4321#0" expanded="false" />
+            <element signature="e#4310#4311#0" expanded="false" />
+            <element signature="e#5233#5275#0" expanded="false" />
+            <element signature="e#5471#5511#0" expanded="false" />
+            <element signature="e#5652#5691#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/ParseConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="256" selection-end="256" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/DBModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="238" selection-end="238" vertical-scroll-proportion="0.23076923" vertical-offset="0" max-vertical-offset="585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="3169" selection-end="3169" vertical-scroll-proportion="0.0" vertical-offset="869" max-vertical-offset="1665">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/models/TransactionModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="40" selection-start="1356" selection-end="1356" vertical-scroll-proportion="-0.15384616" vertical-offset="510" max-vertical-offset="1200" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/extra/NanoConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="32" selection-start="5181" selection-end="5181" vertical-scroll-proportion="0.4458042" vertical-offset="975" max-vertical-offset="19680" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_reports_menu.xml">
+      <provider editor-type-id="text-editor">
+        <state line="55" column="47" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/denary/app/views/ReportsMenuActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="214" column="56" selection-start="7372" selection-end="7372" vertical-scroll-proportion="0.6930946" vertical-offset="2939" max-vertical-offset="3750">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2099#3902#0" expanded="true" />
+            <element signature="e#3890#3891#0" expanded="true" />
+            <element signature="e#4022#4164#0" expanded="true" />
+            <element signature="e#4153#4154#0" expanded="true" />
           </folding>
         </state>
       </provider>

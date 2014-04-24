@@ -52,7 +52,8 @@
         android:text="Done"
         android:id="@+id/generate_report_button"
         android:layout_below="@+id/endDate"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignLeft="@+id/rep"
+        android:layout_alignStart="@+id/rep" />
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -68,6 +69,14 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true" />
     </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+        android:id="@+id/translate_button"
+        android:layout_below="@+id/endDate"
+        android:layout_toRightOf="@+id/generate_report_button" />
 
 
 </RelativeLayout>
