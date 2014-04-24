@@ -52,8 +52,7 @@
         android:text="Done"
         android:id="@+id/generate_report_button"
         android:layout_below="@+id/endDate"
-        android:layout_alignLeft="@+id/rep"
-        android:layout_alignStart="@+id/rep" />
+        android:layout_toLeftOf="@+id/rep" />
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -76,8 +75,8 @@
         android:layout_height="wrap_content"
         android:text="Translate"
         android:id="@+id/translate_button"
-        android:layout_alignTop="@+id/sharebtn"
-        android:layout_toRightOf="@+id/sharebtn" />
+        android:layout_below="@+id/endDate"
+        android:layout_toLeftOf="@+id/dashboardbtn" />
 
     <Button
         android:layout_width="wrap_content"
@@ -85,7 +84,16 @@
         android:text="Share"
         android:id="@+id/sharebtn"
         android:layout_below="@+id/endDate"
-        android:layout_toRightOf="@+id/generate_report_button" />
+        android:layout_toLeftOf="@+id/translate_button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:id="@+id/dashboardbtn"
+        android:layout_below="@+id/endDate"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>

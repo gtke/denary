@@ -2,6 +2,7 @@ package denary.app.views;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -22,6 +23,9 @@ public class SplashActivity extends Activity implements IView{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MediaPlayer mp = MediaPlayer.create(getBaseContext(), R.raw.guitar);
+        mp.start();
+
         setContentView(R.layout.activity_splash);
         new Handler().postDelayed(new Runnable() {
             @Override

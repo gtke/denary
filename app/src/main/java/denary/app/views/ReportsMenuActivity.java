@@ -51,6 +51,7 @@ public class ReportsMenuActivity extends Activity implements  IView,TextToSpeech
     private static Button generate_report_button;
     private static Button translate_button;
     private static Button share_button;
+    private static Button dashboard_button;
     private TextView reportView;
     private String report = "";
     private TextToSpeech tts;
@@ -126,6 +127,13 @@ public class ReportsMenuActivity extends Activity implements  IView,TextToSpeech
                 startActivity(sendIntent);
             }
         });
+        dashboard_button = (Button) findViewById(R.id.dashboardbtn);
+        dashboard_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                advance();
+            }
+        });
         checkVoiceRecognition();
     }
 
@@ -144,7 +152,8 @@ public class ReportsMenuActivity extends Activity implements  IView,TextToSpeech
 
     @Override
     public void advance() {
-
+        Intent i = new Intent(this, DashboardActivity.class);
+        startActivity(i);
     }
 
     @Override
