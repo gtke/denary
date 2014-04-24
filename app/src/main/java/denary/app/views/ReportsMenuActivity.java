@@ -50,6 +50,7 @@ public class ReportsMenuActivity extends Activity implements  IView,TextToSpeech
 
     private static Button generate_report_button;
     private static Button translate_button;
+    private static Button share_button;
     private TextView reportView;
     private String report = "";
     private TextToSpeech tts;
@@ -110,6 +111,19 @@ public class ReportsMenuActivity extends Activity implements  IView,TextToSpeech
             @Override
             public void onClick(View v) {
                 speak(v);
+            }
+        });
+
+        share_button = (Button) findViewById(R.id.sharebtn);
+        share_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent sendIntent = new Intent();
+                sendIntent.setAction(Intent.ACTION_SEND);
+                String s = report;
+                sendIntent.putExtra(Intent.EXTRA_TEXT, s);
+                sendIntent.setType("text/plain");
+                startActivity(sendIntent);
             }
         });
         checkVoiceRecognition();
@@ -175,10 +189,6 @@ public class ReportsMenuActivity extends Activity implements  IView,TextToSpeech
     }
 
 
-
-
-
-
     public void speak(View view) {
         Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
 
@@ -209,10 +219,13 @@ public class ReportsMenuActivity extends Activity implements  IView,TextToSpeech
                         tts.setLanguage(Locale.JAPANESE);
                     }else if(t.contains("korean")){
                         tts.setLanguage(Locale.KOREAN);
+                    }else if(t.contains("stop")){
+                        tts.setLanguage(Locale.US);
+                        speakOut("");
                     }
                     else {
                         System.out.println("NOT RECOGNIZED: " + textMatchList.toString());
-                        tts.setLanguage(Locale.ENGLISH);
+                        tts.setLanguage(Locale.US);
                         String s = "Language Not Supported";
                         showToastMessage(s);
                         speakOut(s);

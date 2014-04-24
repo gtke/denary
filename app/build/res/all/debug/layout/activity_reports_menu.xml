@@ -58,7 +58,8 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@+id/generate_report_button">
+        android:layout_below="@+id/generate_report_button"
+        android:id="@+id/relativeLayout">
 
         <TextView
             android:layout_width="wrap_content"
@@ -75,6 +76,14 @@
         android:layout_height="wrap_content"
         android:text="Translate"
         android:id="@+id/translate_button"
+        android:layout_alignTop="@+id/sharebtn"
+        android:layout_toRightOf="@+id/sharebtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/sharebtn"
         android:layout_below="@+id/endDate"
         android:layout_toRightOf="@+id/generate_report_button" />
 
